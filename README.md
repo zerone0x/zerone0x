@@ -14,3 +14,8 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+- 🎮 gamedev
+
+![](https://img.shields.io/badge/lang-python-blue)
+![](https://img.shields.io/badge/editor-vim-green)
+![](https://img.shields.io/badge/os-mac-orange)
