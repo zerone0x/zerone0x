@@ -16,6 +16,6 @@ Here are some ideas to get you started:
 -->
 - 🎮 gamedev
 
-![](https://img.shields.io/badge/lang-python-blue)
-![](https://img.shields.io/badge/editor-vim-green)
-![](https://img.shields.io/badge/os-mac-orange)
+- ![](https://img.shields.io/badge/lang-python-blue)
+- ![](https://img.shields.io/badge/editor-vim-green)
+- ![](https://img.shields.io/badge/os-mac-orange)
