@@ -19,3 +19,5 @@ Here are some ideas to get you started:
 ![](https://img.shields.io/badge/lang-python-blue)
 ![](https://img.shields.io/badge/editor-vim-green)
 ![](https://img.shields.io/badge/os-mac-orange)
+
+[![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x)](https://github.com/zerone0x/github-readme-stats)
