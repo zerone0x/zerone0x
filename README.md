@@ -1,10 +1,8 @@
 <div align="center">
-
   <img src="https://raw.githubusercontent.com/magicgh/magicgh/output/github-contribution-grid-snake.svg" alt="a snake game">
-  
 </div>
 
-- 时间怎么这么快，再来一局
+> 时间慢一点，我还要再来一局 220113
 
 
 ![](https://img.shields.io/badge/lang-python-blue)
