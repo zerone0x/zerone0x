@@ -1,8 +1,8 @@
-<div align="center">
+<!-- <div align="center">
   <img src="https://raw.githubusercontent.com/magicgh/magicgh/output/github-contribution-grid-snake.svg" alt="a snake game">
-</div>
+</div> -->
 
-> 时间慢一点，我还要再来一局 220113
+> 时间慢一点，我还要再来一局Tetris
 
 
 ![](https://img.shields.io/badge/lang-python-blue)
