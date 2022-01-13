@@ -1,27 +1,11 @@
-<!-- ### Hi there 👋 -->
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/magicgh/magicgh/output/github-contribution-grid-snake.svg" alt="a snake game">
-  <h1> Dot here, I love funny toys </h1>
   
 </div>
 
+- 时间怎么这么快，再来一局
 
-<!--
-**ManlunZhang/manlunzhang** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-<!-- - do things funny -->
 
 ![](https://img.shields.io/badge/lang-python-blue)
 ![](https://img.shields.io/badge/editor-vim-green)
