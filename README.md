@@ -1,15 +1,9 @@
-<!-- <div align="center">
-  <img src="https://raw.githubusercontent.com/magicgh/magicgh/output/github-contribution-grid-snake.svg" alt="a snake game">
-</div> -->
+### Hi there 👋
 
-> 时间慢一点，我还要再来一局Tetris
+⏳ Year progress { █▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁ } 4.44 %
 
+---
 
-![](https://img.shields.io/badge/lang-python-blue)
-![](https://img.shields.io/badge/editor-vim-green)
-![](https://img.shields.io/badge/os-mac-orange)
+⏰ Updated on Mon, 17 Jan 2022 04:31:58 GMT
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zerone0x&layout=compact)](https://github.com/zerone0x/github-readme-stats)
-
-![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=synthwave)
-
+![Progress Bar CI](https://github.com/liununu/liununu/workflows/Progress%20Bar%20CI/badge.svg)
