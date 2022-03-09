@@ -16,9 +16,3 @@ Lua              11 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 ```
 
 <!--END_SECTION:waka-->
-
-![stats](https://github.com/zerone0x/github-stats/blob/master/generated/overview.svg)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=zerone0x&layout=compact)](https://github.com/zerone0x/github-readme-stats)
-![](https://img.shields.io/badge/lang-python-blue)
-![](https://img.shields.io/badge/editor-vim-green)
-![](https://img.shields.io/badge/os-mac-orange)
