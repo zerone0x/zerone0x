@@ -14,3 +14,4 @@ YAML             26 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 Lua              11 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.08 %
 ```
 <!--END_SECTION:waka-->
+![stats](https://github.com/zerone0x/github-stats/blob/master/generated/overview.svg)
