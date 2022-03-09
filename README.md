@@ -1,6 +1,7 @@
 ### Hi there 👋
 
 <!--START_SECTION:waka-->
+
 ```text
 From: 01 March 2022 - To: 08 March 2022
 
@@ -13,6 +14,7 @@ Scheme           1 hr 10 mins    ⣿⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 YAML             26 mins         ⣶⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   02.54 %
 Lua              11 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.08 %
 ```
+
 <!--END_SECTION:waka-->
 
 ![stats](https://github.com/zerone0x/github-stats/blob/master/generated/overview.svg)
