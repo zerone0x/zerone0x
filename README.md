@@ -1,4 +1,4 @@
-### Hi there 👋┬──┬◡ﾉ(° -°ﾉ)
+### ┬──┬◡ﾉ(° -°ﾉ)
 
 - 👾 [tryhackme](https://tryhackme.com/p/soberzml)
 - 📌 [blog](https://hexcell.xyz/)
