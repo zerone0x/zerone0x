@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+- [tryhackme](https://tryhackme.com/p/soberzml)
+- [blog](https://hexcell.xyz/)
+
 <!--START_SECTION:waka-->
 
 ```text
