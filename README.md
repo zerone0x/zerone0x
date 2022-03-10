@@ -1,7 +1,8 @@
-### Hi there 👋
+### Hi there 👋┬──┬◡ﾉ(° -°ﾉ)
 
-- [tryhackme](https://tryhackme.com/p/soberzml)
-- [blog](https://hexcell.xyz/)
+- 👾[tryhackme](https://tryhackme.com/p/soberzml)
+- 📌[blog](https://hexcell.xyz/)
+- 📚I’m currently learning cs61b and lc blind75.
 
 <!--START_SECTION:waka-->
 
