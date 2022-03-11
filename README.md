@@ -20,4 +20,5 @@ JavaScript       25 mins         ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <!--END_SECTION:waka-->
 
-[![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=dracula)](https://github.com/anuraghazra/github-readme-stats)
+[![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)
+[![sober's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=soberzml)](https://github.com/anuraghazra/github-readme-stats)
