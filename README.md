@@ -29,8 +29,8 @@ TOML             6 mins          ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 
 <a href="https://leetcode.card.workers.dev/?username=soberzml2333&theme=wtf&extension=activity">
-  <img align="left" src="https://leetcode.card.workers.dev/?username=soberzml2333&theme=wtf&extension=activity" />
+  <img align="center" src="https://leetcode.card.workers.dev/?username=soberzml2333&theme=wtf&extension=activity" />
 </a>
 <a href="https://github-readme-codewars-stats.herokuapp.com/api/?username=zerone0x&card&customcolor=bg:2a295b_fg:b500ed_text:fc4646_logo:2a295b_stroke:f75402">
-  <img align="right" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=zerone0x&card&customcolor=bg:2a295b_fg:b500ed_text:fc4646_logo:2a295b_stroke:f75402" />
+  <img align="center" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=zerone0x&card&customcolor=bg:2a295b_fg:b500ed_text:fc4646_logo:2a295b_stroke:f75402" />
 </a>
