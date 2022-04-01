@@ -1,5 +1,7 @@
 ### ┬──┬◡ﾉ(° -°ﾉ)
 
+> Learning anything is never a waste of time.
+
 - 👾 [tryhackme](https://tryhackme.com/p/soberzml)
 - 📌 [blog](https://hexcell.xyz/)
 
