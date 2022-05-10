@@ -19,7 +19,7 @@ JSON         0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 JavaScript   0 secs          ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.00 %
 ```
 
-<!--END_SECTION:waka-->
+<!--END_SECTION:waka--test>
 
 [![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)
 
