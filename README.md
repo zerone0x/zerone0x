@@ -5,7 +5,7 @@
 - 👾 [tryhackme](https://tryhackme.com/p/soberzml)
 - 📌 [blog](https://hexcell.xyz/)
 
-<!--START_SECTION:wakanono-->
+<!--START_SECTION:waka-->
 
 ```text
 From: 10 September 2022 - To: 17 September 2022
