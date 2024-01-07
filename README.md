@@ -1,5 +1,7 @@
+<h2 align="center">Hi 👋, I'm zerone0x</h1>
 ### ┬──┬◡ﾉ(° -°ﾉ)
-![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)
+![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)![](https://img.shields.io/badge/language-Javascript-informational)
+
 
 > Learning anything is never a waste of time.
 
@@ -38,7 +40,6 @@ JSON       5 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 </a>
 
 
-<h2 align="center">Hi 👋, I'm Zhu Jiekun</h1>
 
-![](https://img.shields.io/badge/wechat-LearnOTel-brightgreen) ![](https://img.shields.io/badge/language-Go-informational)  [![](https://img.shields.io/badge/resume-cv.jiekun.dev-orange)](https://cv.jiekun.dev)
+
 
