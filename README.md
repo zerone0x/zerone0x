@@ -1,6 +1,8 @@
 <h2 align="center">Hi 👋, I'm zerone0x</h1>
+
 ### ┬──┬◡ﾉ(° -°ﾉ)
-![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)![](https://img.shields.io/badge/language-Javascript-informational)
+
+![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)![](https://img.shields.io/badge/language-Javascript-informational)![](https://img.shields.io/badge/language-Python-informational)
 
 
 > Learning anything is never a waste of time.
