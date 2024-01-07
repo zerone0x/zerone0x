@@ -1,4 +1,5 @@
 ### ┬──┬◡ﾉ(° -°ﾉ)
+![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)
 
 > Learning anything is never a waste of time.
 
@@ -35,3 +36,9 @@ JSON       5 mins          ⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <a href="https://www.codewars.com/users/zerone0x">
   <img align="center" src="https://github-readme-codewars-stats.herokuapp.com/api/?username=zerone0x&card&customcolor=bg:2a295b_fg:b500ed_text:fc4646_logo:2a295b_stroke:f75402" />
 </a>
+
+
+<h2 align="center">Hi 👋, I'm Zhu Jiekun</h1>
+
+![](https://img.shields.io/badge/wechat-LearnOTel-brightgreen) ![](https://img.shields.io/badge/language-Go-informational)  [![](https://img.shields.io/badge/resume-cv.jiekun.dev-orange)](https://cv.jiekun.dev)
+
