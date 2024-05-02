@@ -31,7 +31,7 @@ TOML         12 mins         ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 [![zerone0x's GitHub stats](https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gruvbox_light)](https://github.com/anuraghazra/github-readme-stats)
 
 <!-- 
-![Leetcode Stats](https://leetcode.card.workers.dev/?username=soberzml2333&theme=wtf&extension=activity)
+![Leetcode Stats](https://leetcode.card.workers.dev/?username=curblc&theme=wtf&extension=activity)
  
 ![codewars](https://github-readme-codewars-stats.herokuapp.com/api/?username=zerone0x&card&customcolor=bg:2a295b_fg:b500ed_text:fc4646_logo:2a295b_stroke:f75402) -->
 
