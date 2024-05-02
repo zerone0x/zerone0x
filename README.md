@@ -37,7 +37,7 @@ TOML         12 mins         ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 
 <a href="https://leetcode.com/">
-  <img align="center" src="https://leetcode.card.workers.dev/?username=soberzml2333&theme=wtf&extension=activity" />
+  <img align="center" src="https://leetcode.card.workers.dev/?username=curblc&theme=wtf&extension=activity" />
 </a>
 
 <a href="https://www.codewars.com/users/zerone0x">
