@@ -4,7 +4,7 @@
 
 ![](https://komarev.com/ghpvc/?username=zerone0x&style=flat)![](https://img.shields.io/badge/language-Javascript-informational)![](https://img.shields.io/badge/language-Python-informational)
 
-
+![HTML5](https://img.icons8.com/color/30/html-5.png)![CSS3](https://img.icons8.com/color/30/css3.png)![JavaScript](https://img.icons8.com/color/30/javascript.png)![ReactJS](https://img.icons8.com/color/30/react-native.png)![VSCode](https://img.icons8.com/color/30/visual-studio-code-2019.png)
 > Learning anything is never a waste of time.
 
 - 👾 [tryhackme](https://tryhackme.com/p/soberzml)
