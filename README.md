@@ -19,11 +19,8 @@
 💝 I love curb 
 
 ###
+<img height="200" src="./heart.gif" alt="Larry David heart" />
 
-<div style="display: flex;align-items: center">
-<img height="200" src="./heart.gif"  />
-<p>┬──┬◡ﾉ(° -°ﾉ)</p>
-</div>
 
 ###
 
