@@ -17,7 +17,7 @@
 
 👯‍♀️ I'm looking to collaborate on Frontend Developer role
 
-💝 I love curb 
+🪵 I love Curb and respect wood!
 
 ###
 <img height="200" src="./heart.gif" alt="Larry David heart" />
