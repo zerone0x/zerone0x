@@ -1,11 +1,8 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
-
-
-<p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with modern web development. </p>
-
-<!-- ## 🔗 Links -->
+# Hi, I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>👋 I'm Frontend Developer 
+> Learning anything is never a waste of time.💫
+## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
-<!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
+<!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tommy04/) -->
 <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=zerone0x@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
@@ -28,8 +25,22 @@ CSS           39 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <!--END_SECTION:waka-->
 
+## 🍀 About me
+📈 I develop user interfaces, web applications and more! 
+
+<!-- 👩‍💻 I'm currently working on something special -->
+
+🧠 I'm currently expanding my knowledge in frontend development (React.js, Next.js 14)
+
+👯‍♀️ I'm looking to collaborate on Frontend Developer role
+
+🪵 I love Curb and respect wood!
+
+###
+<img height="200" src="./heart.gif" alt="Larry David heart" />
 
 
+###
 
 <!-- ## 🛠 I have knowledge of
 
