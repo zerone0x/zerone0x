@@ -6,7 +6,7 @@
 <!-- ## 🔗 Links -->
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
 <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
-<img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=zerone0x@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
+<img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=soberzml2333@gmail.com&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
 </a> -->
