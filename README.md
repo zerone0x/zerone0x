@@ -11,6 +11,8 @@
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
 </a> -->
 
+<img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
+
 📊 **this week i spent my time on:**
   <!--START_SECTION:waka-->
 
@@ -80,6 +82,7 @@ Python        54 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 📈 my github stats
 
 <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
+
 
 <!-- <div>
 
