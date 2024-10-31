@@ -9,9 +9,10 @@
 <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=zerone0x@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
+    
+<img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
 </a> -->
 
-<img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
 
 📊 **this week i spent my time on:**
   <!--START_SECTION:waka-->
