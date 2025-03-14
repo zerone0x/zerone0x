@@ -1,7 +1,7 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
 
-<p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with modern web development. </p>
+<p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
 
 <!-- ## 🔗 Links -->
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
