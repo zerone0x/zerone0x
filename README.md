@@ -14,13 +14,11 @@
     
 <img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
 </a> -->
-<a href="https://buymeacoffee.com/soberzml23d" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 50px; width: 210px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); -webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5);" />
+
 </a>
 <!-- <a href="https://ko-fi.com/zerone0x">
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
-<br><br>
 
 
 
@@ -94,7 +92,6 @@ Python       2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ![](https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb))
 
-
 <!-- <div>
 
 
@@ -105,3 +102,7 @@ Python       2 mins          ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
   <img align="center" src="https://leetcode.card.workers.dev/?username=curblc&theme=wtf&extension=activity" />
 </a>
 </div> -->
+🫶 support me if you like my work
+
+<a href="https://buymeacoffee.com/soberzml23d" target="_blank">
+  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 50px; width: 210px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); -webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5);" />
