@@ -2,6 +2,7 @@
 
 
 <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
+<p>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it.</p>
 
 <!-- ## 🔗 Links -->
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
