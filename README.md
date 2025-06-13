@@ -2,7 +2,7 @@
 
 
 <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
-<blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it.</blockquote>
+<blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote>
 
 <!-- ## 🔗 Links -->
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
