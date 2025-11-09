@@ -1,7 +1,11 @@
-# Hi, I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>👋 I'm Frontend Developer 
+# Hi, I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>👋 I'm Frontend Developer
+
 > Learning anything is never a waste of time.💫
+
 ## 🔗 Links
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
+
 <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/tommy04/) -->
 <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=zerone0x@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
@@ -9,6 +13,7 @@
 </a> -->
 
 📊 **this week i spent my time on:**
+
   <!--START_SECTION:waka-->
 
 ```txt
@@ -26,7 +31,8 @@ CSS           39 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 <!--END_SECTION:waka-->
 
 ## 🍀 About me
-📈 I develop user interfaces, web applications and more! 
+
+📈 I develop user interfaces, web applications and more!
 
 <!-- 👩‍💻 I'm currently working on something special -->
 
@@ -37,8 +43,8 @@ CSS           39 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 🪵 I love Curb and respect wood!
 
 ###
-<img height="200" src="./heart.gif" alt="Larry David heart" />
 
+<img height="200" src="./heart.gif" alt="Larry David heart" />
 
 ###
 
@@ -61,7 +67,7 @@ CSS           39 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
 
  <img src="https://skillicons.dev/icons?i=redux" height="40" alt="redux logo"  />
-  
+
  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />
 
  <img src="https://skillicons.dev/icons?i=graphql" height="40" alt="graphql logo"  />
@@ -75,18 +81,17 @@ CSS           39 mins         ⣷⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
  <img src="https://skillicons.dev/icons?i=sequelize" height="40" alt="sequelize logo" />
 
  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
- 
+
  <img src="https://skillicons.dev/icons?i=angular" height="40" alt="angularjs logo"  />
 
  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
- 
+
  <img src="https://skillicons.dev/icons?i=jest" height="40" alt="jest logo" />
- 
+
 
 </div> -->
 
 ###
-
 
 📈 my github stats
 
