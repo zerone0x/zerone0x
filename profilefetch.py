@@ -120,7 +120,7 @@ def get_profile_content_definition(user_data):
 
     # Bio section with special formatting
     bio_text = user_data.get("bio", "") or ""
-    content_lines.append(("Bio", bio_text))
+    content_lines.append(("Bio", "We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter."))
     # BIO_OVERFLOW will be added dynamically during rendering if needed
 
     # System info section
@@ -135,8 +135,8 @@ def get_profile_content_definition(user_data):
 
     # Languages section
     content_lines.extend([
-        ("Languages.Programming", "Typescript, Python, Shell"),
-        ("Languages.Markup", "HTML, CSS, Markdown, LaTeX"),
+        ("Languages.Programming", "Typescript, Python, Haskell, Shell"),
+        ("Languages.Markup", "Org-mode, Markdown, LaTeX"),
         ("Languages.Real", "English, Chinese"),
     ])
 
@@ -1373,8 +1373,8 @@ def main():
     parser.add_argument('--token', help='GitHub Personal Access Token (defaults to GITHUB_TOKEN env var)')
     parser.add_argument('--username', help='GitHub Username (defaults to GITHUB_USERNAME env var)')
     parser.add_argument('--years', type=int, help='Number of years of data to fetch (defaults to account age)')
-    parser.add_argument('--output-dark', default='profile_dark.svg', help='Output file for dark mode SVG')
-    parser.add_argument('--output-light', default='profile_light.svg', help='Output file for light mode SVG')
+    parser.add_argument('--output-dark', default='dark.svg', help='Output file for dark mode SVG')
+    parser.add_argument('--output-light', default='light.svg', help='Output file for light mode SVG')
     parser.add_argument('--macos-window', action='store_true', help='Wrap output in macOS-style window')
     parser.add_argument('--debug', action='store_true', help='Enable debug output')
 

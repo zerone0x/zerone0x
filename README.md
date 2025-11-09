@@ -1,7 +1,7 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-<p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
-<blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote>
+<!-- <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
+<blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote> -->
 
 <!-- ## 🔗 Links -->
 
@@ -20,6 +20,16 @@
 <!-- <a href="https://ko-fi.com/zerone0x">
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
+###
+
+📈 my github stats
+
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/dark.svg">
+<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/refs/heads/main/dark.svg">
+</picture>
+</div>
 
 📊 **this week i spent my time on:**
 
@@ -39,16 +49,6 @@ Org          16 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 <!--END_SECTION:waka-->
 
-###
-
-📈 my github stats
-
-<div align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_dark.svg">
-<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/refs/heads/main/profile_dark.svg">
-</picture>
-</div>
 <!-- ![](<https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb)>) -->
 
 <!-- <div>
