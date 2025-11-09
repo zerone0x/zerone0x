@@ -16,7 +16,7 @@ import requests
 # SVG Configuration Constants
 SVG_WIDTH = 1024
 SVG_HEIGHT = None  # Will be calculated dynamically based on content
-ASCII_HEIGHT = 322  # Height of ASCII art section for Mobius Strip (18 lines)
+ASCII_HEIGHT = 258  # Height of ASCII art section, modify based on the art added
 
 # GitHub language colors (subset - add more as needed)
 LANGUAGE_COLORS = {
@@ -1211,28 +1211,24 @@ text, tspan {{white-space: pre;}}
 </style>
 <rect width="{svg_width}px" height="{svg_height}px" fill="{bg_color}" rx="{border_radius}"/>'''
 
-        # ASCII art positioned at x=25 - Mobius Strip
+        # ASCII art positioned at x=25
         ascii_x = 25
         svg_content += f'''
 <text x="{ascii_x}" y="30" fill="{text_color}" class="ascii">
-    <tspan x="{ascii_x}" y="50">        .---.</tspan>
-    <tspan x="{ascii_x}" y="66">      .'     '.</tspan>
-    <tspan x="{ascii_x}" y="82">    .'         '.</tspan>
-    <tspan x="{ascii_x}" y="98">   /             \\</tspan>
-    <tspan x="{ascii_x}" y="114">  |             |</tspan>
-    <tspan x="{ascii_x}" y="130">  |<tspan class="green">  .---.</tspan>  |</tspan>
-    <tspan x="{ascii_x}" y="146">  |<tspan class="green">.'</tspan>     <tspan class="red">'.</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="162">  |<tspan class="green">/</tspan>         <tspan class="red">\\</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="178">  |<tspan class="green">|</tspan>         <tspan class="red">|</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="194">  |<tspan class="green">|</tspan>         <tspan class="red">|</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="210">  |<tspan class="green">\\</tspan>         <tspan class="red">/</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="226">  |<tspan class="green">'.</tspan>     <tspan class="red">'</tspan>|</tspan>
-    <tspan x="{ascii_x}" y="242">  |<tspan class="green">  '---'</tspan>  |</tspan>
-    <tspan x="{ascii_x}" y="258">  |             |</tspan>
-    <tspan x="{ascii_x}" y="274">   \\             /</tspan>
-    <tspan x="{ascii_x}" y="290">    '.         .'</tspan>
-    <tspan x="{ascii_x}" y="306">      '.     .'</tspan>
-    <tspan x="{ascii_x}" y="322">        '---'</tspan>
+    <tspan x="{ascii_x}" y="50">           ____</tspan>
+    <tspan x="{ascii_x}" y="66">          /\   \</tspan>
+    <tspan x="{ascii_x}" y="82">         /  \   \</tspan>
+    <tspan x="{ascii_x}" y="98">        /    \   \</tspan>
+    <tspan x="{ascii_x}" y="114">       /      \   \</tspan>
+    <tspan x="{ascii_x}" y="130">      /   /\   \   \</tspan>
+    <tspan x="{ascii_x}" y="146">     /   /  \   \   \</tspan>
+    <tspan x="{ascii_x}" y="162">    /   /    \   \   \</tspan>
+    <tspan x="{ascii_x}" y="178">   /   /    / \   \   \</tspan>
+    <tspan x="{ascii_x}" y="194">  /   /    /   \   \   \</tspan>
+    <tspan x="{ascii_x}" y="210"> /   /    /---------'   \</tspan>
+    <tspan x="{ascii_x}" y="226">/   /    /_______________\</tspan>
+    <tspan x="{ascii_x}" y="242">\  /                     /</tspan>
+    <tspan x="{ascii_x}" y="258"> \/_____________________/</tspan>
 </text>'''
 
         # Main content starts at x=360
