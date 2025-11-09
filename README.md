@@ -21,57 +21,6 @@
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
 
-<div align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_dark.svg">
-<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_light.svg">
-</picture>
-</div>
-
-<!-- ## 🛠 I have knowledge of
-
-
-<div>
-
- <img src="https://skillicons.dev/icons?i=html" height="40" alt="html5 logo" />
-
- <img src="https://skillicons.dev/icons?i=css" height="40" alt="css3 logo" />
-
- <img src="https://skillicons.dev/icons?i=sass" height="40" alt="sass logo" />
-
- <img src="https://skillicons.dev/icons?i=tailwind" height="40" alt="tailwindcss logo" />
-
- <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo" />
-
- <img src="https://skillicons.dev/icons?i=ts" height="40" alt="typescript logo" />
-
- <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
-
- <img src="https://skillicons.dev/icons?i=redux" height="40" alt="redux logo"  />
-
- <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />
-
- <img src="https://skillicons.dev/icons?i=graphql" height="40" alt="graphql logo"  />
-
- <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo" />
-
- <img src="https://skillicons.dev/icons?i=express" height="40" alt="express logo"  />
-
- <img src="https://skillicons.dev/icons?i=nestjs" height="40" alt="nestjs logo" />
-
- <img src="https://skillicons.dev/icons?i=sequelize" height="40" alt="sequelize logo" />
-
- <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
-
- <img src="https://skillicons.dev/icons?i=angular" height="40" alt="angularjs logo"  />
-
- <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
-
- <img src="https://skillicons.dev/icons?i=jest" height="40" alt="jest logo" />
-
-
-</div> -->
-
 📊 **this week i spent my time on:**
 
   <!--START_SECTION:waka-->
@@ -94,7 +43,13 @@ Org          16 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 📈 my github stats
 
-![](<https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb)>)
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_dark.svg">
+<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/refs/heads/main/profile_dark.svg">
+</picture>
+</div>
+<!-- ![](<https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb)>) -->
 
 <!-- <div>
 
