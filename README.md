@@ -20,9 +20,7 @@
 <!-- <a href="https://ko-fi.com/zerone0x">
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
-###
-
-📈 my github stats
+### 📈 my github stats
 
 <div align="center">
 <picture>
