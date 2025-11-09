@@ -137,7 +137,7 @@ def get_profile_content_definition(user_data):
     content_lines.extend([
         ("Languages.Programming", "Typescript, Python, Haskell, Shell"),
         ("Languages.Markup", "Org-mode, Markdown, LaTeX"),
-        ("Languages.Real", "English, Chinese"),
+        ("Languages.Real", "English, Mandarin"),
     ])
 
     # Add gap and Contact section header
