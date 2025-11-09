@@ -100,7 +100,7 @@ def get_profile_content_definition(user_data):
     - "GAP": Adds vertical spacing
     - Keys starting with "—": Section headers
     - "PLACEHOLDER": Will be replaced with actual data during rendering
-    - "BIO_OVERFLOW": Second line for bio overflow content
+    - "BIO_OVERFLOW": Additional lines for bio overflow content (can be multiple lines)
 
     Args:
         user_data: GitHub user data from API
@@ -121,7 +121,7 @@ def get_profile_content_definition(user_data):
     # Bio section with special formatting
     bio_text = user_data.get("bio", "") or ""
     content_lines.append(("Bio", "We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter."))
-    # BIO_OVERFLOW will be added dynamically during rendering if needed
+    # BIO_OVERFLOW will be added dynamically during rendering if needed (can be multiple lines)
 
     # System info section
     content_lines.extend([
@@ -210,7 +210,7 @@ def format_bio_line(bio_text, total_width=75):
     Format bio line with special requirements:
     1. At least 8 dots
     2. Respect 75 character width limit
-    3. If overflow, create a second right-aligned line
+    3. If overflow, create second and third right-aligned lines
     4. Never break words - always break at word boundaries
 
     Returns: (first_line_formatted, overflow_lines_list)
@@ -263,11 +263,37 @@ def format_bio_line(bio_text, total_width=75):
     # Return structured format: (dots_count, bio_text_part)
     first_line_data = (total_dots, first_line_bio)
 
-    # Second line is right-aligned with remaining bio
+    # Split remaining bio into second and third lines if needed
     overflow_lines = []
     if remaining_bio:
-        second_line = remaining_bio.rjust(total_width)
-        overflow_lines = [("BIO_OVERFLOW", second_line)]
+        # If remaining bio fits in one line, use one line
+        if len(remaining_bio) <= total_width:
+            second_line = remaining_bio.rjust(total_width)
+            overflow_lines = [("BIO_OVERFLOW", second_line)]
+        else:
+            # Split remaining bio into two lines
+            remaining_words = remaining_bio.split()
+            second_line_text = ""
+            third_line_words = []
+            
+            # Fill second line
+            for i, word in enumerate(remaining_words):
+                test_line = second_line_text + (" " if second_line_text else "") + word
+                if len(test_line) <= total_width:
+                    second_line_text = test_line
+                else:
+                    # This word and remaining words go to third line
+                    third_line_words = remaining_words[i:]
+                    break
+            
+            # Fill third line with remaining words
+            third_line_text = " ".join(third_line_words)
+            
+            # Create overflow lines
+            if second_line_text:
+                overflow_lines.append(("BIO_OVERFLOW", second_line_text.rjust(total_width)))
+            if third_line_text:
+                overflow_lines.append(("BIO_OVERFLOW", third_line_text.rjust(total_width)))
 
     return first_line_data, overflow_lines
 
