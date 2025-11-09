@@ -205,14 +205,20 @@ def get_text_length_without_tags(text):
     return len(clean_text)
 
 
-def format_bio_line(bio_text, total_width=75, max_lines=5):
+def format_bio_line(bio_text, total_width=75, max_lines=5, overflow_line_width=None):
     """
     Format bio line with special requirements:
     1. At least 8 dots
-    2. Respect 75 character width limit
+    2. Respect 75 character width limit for first line
     3. If overflow, create multiple left-aligned lines (up to max_lines total)
     4. Never break words - always break at word boundaries
     5. Lines 2-5 align with the start of line 2 (left-aligned)
+    
+    Args:
+        bio_text: The bio text to format
+        total_width: Width for first line (default 75)
+        max_lines: Maximum total lines (default 5)
+        overflow_line_width: Width for overflow lines (if None, calculated from SVG dimensions)
 
     Returns: (first_line_formatted, overflow_lines_list)
     """
@@ -221,6 +227,25 @@ def format_bio_line(bio_text, total_width=75, max_lines=5):
 
     key_part = ". Bio:"
     min_dots = 8
+
+    # Calculate overflow line width if not provided
+    # Overflow lines start from bio_text_start_x, which is approximately:
+    # x_main (360) + ". Bio:" (6 chars) + dots (min 8) + space (1) = ~360 + 15*8.4 = ~486
+    # SVG_WIDTH = 1024, so available width ≈ 1024 - 486 = 538px
+    # In monospace 14px font, char width ≈ 8.4px, so chars ≈ 538/8.4 ≈ 64
+    # Use a conservative estimate of 60 characters for safety
+    if overflow_line_width is None:
+        # Calculate based on SVG dimensions
+        # bio_text_start_x ≈ x_main + (6 + min_dots + 1) * 8.4
+        # Available width = SVG_WIDTH - bio_text_start_x
+        # Convert to character count (char_width ≈ 8.4px)
+        char_width = 8.4
+        x_main = 360
+        svg_width = 1024
+        bio_text_start_x_approx = x_main + (6 + min_dots + 1) * char_width
+        available_width_px = svg_width - bio_text_start_x_approx
+        overflow_line_width = int(available_width_px / char_width) - 5  # Subtract 5 for safety margin
+        overflow_line_width = max(50, min(overflow_line_width, 70))  # Clamp between 50-70
 
     # Calculate space for first line
     space_after_key = total_width - len(key_part)
@@ -265,7 +290,7 @@ def format_bio_line(bio_text, total_width=75, max_lines=5):
     first_line_data = (total_dots, first_line_bio)
 
     # Split remaining bio into multiple overflow lines (up to max_lines - 1 overflow lines)
-    # All overflow lines are left-aligned (not right-aligned)
+    # All overflow lines are left-aligned and use overflow_line_width
     overflow_lines = []
     if remaining_bio:
         remaining_words = remaining_bio.split()
@@ -277,10 +302,10 @@ def format_bio_line(bio_text, total_width=75, max_lines=5):
         
         while word_index < len(remaining_words) and len(overflow_lines) < max_overflow_lines:
             word = remaining_words[word_index]
-            # Test if adding this word would exceed the line width
+            # Test if adding this word would exceed the overflow line width
             test_line = " ".join(current_line_words + [word])
             
-            if len(test_line) <= total_width:
+            if len(test_line) <= overflow_line_width:
                 current_line_words.append(word)
                 word_index += 1
             else:
@@ -291,8 +316,8 @@ def format_bio_line(bio_text, total_width=75, max_lines=5):
                     current_line_words = []
                 else:
                     # Single word is too long, put it on its own line (truncate if needed)
-                    if len(word) > total_width:
-                        word = word[:total_width-3] + "..."
+                    if len(word) > overflow_line_width:
+                        word = word[:overflow_line_width-3] + "..."
                     overflow_lines.append(("BIO_OVERFLOW", word))  # Left-aligned, no rjust
                     word_index += 1
                     if len(overflow_lines) >= max_overflow_lines:
