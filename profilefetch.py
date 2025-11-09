@@ -205,13 +205,14 @@ def get_text_length_without_tags(text):
     return len(clean_text)
 
 
-def format_bio_line(bio_text, total_width=75):
+def format_bio_line(bio_text, total_width=75, max_lines=5):
     """
     Format bio line with special requirements:
     1. At least 8 dots
     2. Respect 75 character width limit
-    3. If overflow, create second and third right-aligned lines
+    3. If overflow, create multiple left-aligned lines (up to max_lines total)
     4. Never break words - always break at word boundaries
+    5. Lines 2-5 align with the start of line 2 (left-aligned)
 
     Returns: (first_line_formatted, overflow_lines_list)
     """
@@ -230,7 +231,7 @@ def format_bio_line(bio_text, total_width=75):
         # Return structured format: (dots_part, bio_text_part)
         return (dots_needed, bio_text), []
 
-    # If bio needs to overflow to second line
+    # If bio needs to overflow to additional lines
     # First line gets minimum dots and as much bio as possible without breaking words
     first_line_bio_space = space_after_key - min_dots - 1  # -1 for space before bio
 
@@ -246,7 +247,7 @@ def format_bio_line(bio_text, total_width=75):
             if len(test_line) <= first_line_bio_space:
                 first_line_bio = test_line
             else:
-                # This word would exceed space, so put it and all remaining words on second line
+                # This word would exceed space, so put it and all remaining words on next lines
                 remaining_words = words[i:]
                 break
 
@@ -263,37 +264,44 @@ def format_bio_line(bio_text, total_width=75):
     # Return structured format: (dots_count, bio_text_part)
     first_line_data = (total_dots, first_line_bio)
 
-    # Split remaining bio into second and third lines if needed
+    # Split remaining bio into multiple overflow lines (up to max_lines - 1 overflow lines)
+    # All overflow lines are left-aligned (not right-aligned)
     overflow_lines = []
     if remaining_bio:
-        # If remaining bio fits in one line, use one line
-        if len(remaining_bio) <= total_width:
-            second_line = remaining_bio.rjust(total_width)
-            overflow_lines = [("BIO_OVERFLOW", second_line)]
-        else:
-            # Split remaining bio into two lines
-            remaining_words = remaining_bio.split()
-            second_line_text = ""
-            third_line_words = []
+        remaining_words = remaining_bio.split()
+        max_overflow_lines = max_lines - 1  # Subtract 1 for the first line
+        
+        # Process words into lines
+        current_line_words = []
+        word_index = 0
+        
+        while word_index < len(remaining_words) and len(overflow_lines) < max_overflow_lines:
+            word = remaining_words[word_index]
+            # Test if adding this word would exceed the line width
+            test_line = " ".join(current_line_words + [word])
             
-            # Fill second line
-            for i, word in enumerate(remaining_words):
-                test_line = second_line_text + (" " if second_line_text else "") + word
-                if len(test_line) <= total_width:
-                    second_line_text = test_line
+            if len(test_line) <= total_width:
+                current_line_words.append(word)
+                word_index += 1
+            else:
+                # Current line is full, save it and start a new line
+                if current_line_words:
+                    line_text = " ".join(current_line_words)
+                    overflow_lines.append(("BIO_OVERFLOW", line_text))  # Left-aligned, no rjust
+                    current_line_words = []
                 else:
-                    # This word and remaining words go to third line
-                    third_line_words = remaining_words[i:]
-                    break
-            
-            # Fill third line with remaining words
-            third_line_text = " ".join(third_line_words)
-            
-            # Create overflow lines
-            if second_line_text:
-                overflow_lines.append(("BIO_OVERFLOW", second_line_text.rjust(total_width)))
-            if third_line_text:
-                overflow_lines.append(("BIO_OVERFLOW", third_line_text.rjust(total_width)))
+                    # Single word is too long, put it on its own line (truncate if needed)
+                    if len(word) > total_width:
+                        word = word[:total_width-3] + "..."
+                    overflow_lines.append(("BIO_OVERFLOW", word))  # Left-aligned, no rjust
+                    word_index += 1
+                    if len(overflow_lines) >= max_overflow_lines:
+                        break
+        
+        # Add the last line if there are remaining words
+        if current_line_words and len(overflow_lines) < max_overflow_lines:
+            line_text = " ".join(current_line_words)
+            overflow_lines.append(("BIO_OVERFLOW", line_text))  # Left-aligned, no rjust
 
     return first_line_data, overflow_lines
 
@@ -1304,6 +1312,7 @@ text, tspan {{white-space: pre;}}
         }
 
         # Render all content lines dynamically
+        bio_text_start_x = None  # Track the x position where bio text starts (for alignment)
         for key, value in content_lines:
             if key == "GAP":
                 # Add gap (just increase y_current)
@@ -1317,8 +1326,21 @@ text, tspan {{white-space: pre;}}
                 styled_line = f'. <tspan class="key">Bio</tspan>:{"." * dots_count}'
                 if bio_text:
                     styled_line += f' <tspan class="value">{bio_text}</tspan>'
+                    # Calculate bio text start position for alignment
+                    # ". Bio:" = 6 chars, dots = dots_count chars, space = 1 char
+                    # In monospace font (14px), approximate char width is 8.4px
+                    char_width = 8.4
+                    bio_text_start_x = x_main + (6 + dots_count + 1) * char_width
             elif key == "BIO_OVERFLOW":
+                # Use bio_text_start_x if available, otherwise use x_main
+                overflow_x = bio_text_start_x if bio_text_start_x is not None else x_main
                 styled_line = f'<tspan class="value">{value}</tspan>'
+                svg_content += f'''
+<text x="{overflow_x}" y="{y_current}" fill="{text_color}" font-size="14px">
+<tspan x="{overflow_x}" y="{y_current}">{styled_line}</tspan>
+</text>'''
+                y_current += line_height
+                continue
             # Replace placeholder values for GitHub Statistics - just pass placeholders as special styling handles the formatting
             elif key in ["Repository", "Commits", "Issues", "Pull Requests"]:
                 value = "PLACEHOLDER"  # Will be replaced by special styling
