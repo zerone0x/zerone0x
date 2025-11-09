@@ -1,12 +1,13 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
 
-
 <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, a self-motivated and lifelong learner familiar with software development. </p>
 <blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote>
 
 <!-- ## 🔗 Links -->
+
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
 [![blog](https://img.shields.io/badge/my_blog-000?style=for-the-badge&logo=blogger&logoColor=white)](https://hi.trine.dev/)
+
 <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
 <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
@@ -20,8 +21,12 @@
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
 
-
-
+<div align="center">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_dark.svg">
+<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/main/profile_light.svg">
+</picture>
+</div>
 
 <!-- ## 🛠 I have knowledge of
 
@@ -43,7 +48,7 @@
  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo" />
 
  <img src="https://skillicons.dev/icons?i=redux" height="40" alt="redux logo"  />
-  
+
  <img src="https://skillicons.dev/icons?i=nextjs" height="40" alt="nextjs logo" />
 
  <img src="https://skillicons.dev/icons?i=graphql" height="40" alt="graphql logo"  />
@@ -57,17 +62,18 @@
  <img src="https://skillicons.dev/icons?i=sequelize" height="40" alt="sequelize logo" />
 
  <img src="https://skillicons.dev/icons?i=postgres" height="40" alt="postgresql logo" />
- 
+
  <img src="https://skillicons.dev/icons?i=angular" height="40" alt="angularjs logo"  />
 
  <img src="https://skillicons.dev/icons?i=docker" height="40" alt="docker logo"  />
- 
+
  <img src="https://skillicons.dev/icons?i=jest" height="40" alt="jest logo" />
- 
+
 
 </div> -->
 
 📊 **this week i spent my time on:**
+
   <!--START_SECTION:waka-->
 
 ```txt
@@ -86,11 +92,9 @@ Org          16 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
 
 ###
 
-
 📈 my github stats
 
-
-![](https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb))
+![](<https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb)>)
 
 <!-- <div>
 
@@ -102,6 +106,7 @@ Org          16 mins         ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀
   <img align="center" src="https://leetcode.card.workers.dev/?username=curblc&theme=wtf&extension=activity" />
 </a>
 </div> -->
+
 🫶 support me if you like my work
 
 <a href="https://buymeacoffee.com/soberzml23d" target="_blank">
