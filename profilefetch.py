@@ -149,7 +149,6 @@ def get_profile_content_definition(user_data):
     # Contact info
     content_lines.extend([
         ("Email.Contact", "hi@trine.dev"),
-        ("Discord", "dotindiscorg"),
     ])
 
     # Add gap and GitHub Statistics section header
