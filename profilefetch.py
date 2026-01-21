@@ -99,8 +99,6 @@ def get_profile_content_definition(user_data):
     Special markers:
     - "GAP": Adds vertical spacing
     - Keys starting with "—": Section headers
-    - "PLACEHOLDER": Will be replaced with actual data during rendering
-    - "BIO_OVERFLOW": Additional lines for bio overflow content (can be multiple lines)
 
     Args:
         user_data: GitHub user data from API
@@ -108,61 +106,24 @@ def get_profile_content_definition(user_data):
     Returns:
         List of (key, value) tuples defining the profile content
     """
-    # Calculate age for uptime
-    created_date = datetime.fromisoformat(user_data['createdAt'].replace('Z', '+00:00'))
-    age = datetime.now(created_date.tzinfo) - created_date
-    years = age.days // 365
-    months = (age.days % 365) // 30
-    days = (age.days % 365) % 30
-
-    # Build the content structure
+    # Build the content structure - simplified version
     content_lines = []
 
-    # Bio section with special formatting
-    bio_text = user_data.get("bio", "") or ""
-    content_lines.append(("Bio", "We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter."))
-    # BIO_OVERFLOW will be added dynamically during rendering if needed (can be multiple lines)
+    # Bio - single line
+    content_lines.append(("Bio", "Build tools. Break systems. Live in the terminal."))
 
-    # System info section
+    # Add gap and Stack section
     content_lines.extend([
-        ("Uptime", f"{years} years, {months} months, {days} days"),
-        ("OS", "macOS"),
-        ("Editors", "Cursor, Doom Emacs"),
+        ("GAP", ""),
+        ("— Stack ", ""),
+        ("Tech", "TypeScript · Python · Go · Shell"),
     ])
 
-    # Add gap before languages section
-    content_lines.append(("GAP", ""))
-
-    # Languages section
-    content_lines.extend([
-        ("Languages.Programming", "Typescript, Python, Haskell, Shell"),
-        ("Languages.Markup", "Org-mode, Markdown, LaTeX"),
-        ("Languages.Real", "English, Mandarin"),
-    ])
-
-    # Add gap and Contact section header
+    # Add gap and Contact section
     content_lines.extend([
         ("GAP", ""),
         ("— Contact ", ""),
-    ])
-
-    # Contact info
-    content_lines.extend([
-        ("Email.Contact", "hi@trine.dev"),
-    ])
-
-    # Add gap and GitHub Statistics section header
-    content_lines.extend([
-        ("GAP", ""),
-        ("— GitHub Statistics ", ""),
-    ])
-
-    # GitHub Statistics (values will be replaced during rendering)
-    content_lines.extend([
-        ("Repository", "PLACEHOLDER"),  # repos, contributed repos, stars, followers
-        ("Commits", "PLACEHOLDER"),  # commits, code line changes
-        ("Issues", "PLACEHOLDER"),  # open/closed issues
-        ("Pull Requests", "PLACEHOLDER")  # open/draft/merged/closed PRs
+        ("Email", "hi@trine.dev"),
     ])
 
     return content_lines
@@ -1154,41 +1115,26 @@ class GitHubProfileGenerator:
         return window_svg
 
     def generate_svg(self, data, mode='dark', macos_window=False):
-        """Generate the complete SVG"""
+        """Generate the complete SVG - simplified version"""
         user = data['user']
-        language_percentages = calculate_language_percentages(data['language_stats'])
 
         # Color schemes
         if mode == 'dark':
-            bg_color = '#0d1117'  # Changed back to original GitHub dark theme color
+            bg_color = '#0d1117'
             text_color = '#c9d1d9'
             key_color = '#ffa657'
             value_color = '#a5d6ff'
-            add_color = '#3fb950'
-            del_color = '#f85149'
-            separator_color = text_color  # Set separator to same as text color
-            green_color = '#238636'
-            red_color = '#da3633'
-            purple_color = '#8b5cf6'  # Purple for merged PRs
-            gray_color = '#6e7681'  # Gray for draft PRs
-            note_color = '#7c3aed'  # Purple for notes
-            prompt_color = '#39d353'  # Green for shell prompt
-            cursor_color = '#f0f6fc'  # Light color for cursor
+            separator_color = text_color
+            prompt_color = '#39d353'
+            cursor_color = '#f0f6fc'
         else:
             bg_color = '#f6f8fa'
             text_color = '#24292f'
             key_color = '#953800'
             value_color = '#0a3069'
-            add_color = '#1a7f37'
-            del_color = '#cf222e'
-            separator_color = text_color  # Set separator to same as text color
-            green_color = '#1a7f37'
-            red_color = '#cf222e'
-            purple_color = '#7c3aed'  # Purple for merged PRs
-            gray_color = '#656d76'  # Gray for draft PRs
-            note_color = '#7c3aed'  # Purple for notes
-            prompt_color = '#1a7f37'  # Green for shell prompt
-            cursor_color = '#24292f'  # Dark color for cursor
+            separator_color = text_color
+            prompt_color = '#1a7f37'
+            cursor_color = '#24292f'
 
         # Use the global constants for dimensions
         svg_width = SVG_WIDTH
@@ -1202,58 +1148,40 @@ class GitHubProfileGenerator:
         text_lines_count = len([line for line in content_lines if line[0] != "GAP"])
         gap_lines_count = len([line for line in content_lines if line[0] == "GAP"])
 
-        # Count language details (top 10 languages shown)
-        language_details_count = min(10, len(language_percentages)) if language_percentages else 0
-
         # Calculate total content lines
         total_content_lines = (
                 1 +  # User header
                 text_lines_count +
-                gap_lines_count +
-                language_details_count
+                gap_lines_count
         )
 
-        # Calculate content height including notes and prompt at the bottom
+        # Calculate content height - simplified (just content + prompt)
         content_height = (
                 (total_content_lines * line_height) +  # All text lines
-                10 +  # Language bar height
-                35 +  # Space between language bar and language details (increased from 25)
-                15 +  # Space after language details
-                20 +  # Space before notes
-                20 +  # First note line
-                15 +  # Space for possible second note line
-                25 +  # Space before prompt (increased from 15)
+                25 +  # Space before prompt
                 20  # Prompt line
         )
 
-        # Take the maximum of ASCII art height and content height, add minimal padding
+        # Take the maximum of ASCII art height and content height
         # If SVG_HEIGHT is specified, use it; otherwise calculate dynamically
         if SVG_HEIGHT is not None:
             svg_height = SVG_HEIGHT
         else:
-            svg_height = max(ASCII_HEIGHT + top_margin, content_height) + 5
+            svg_height = max(ASCII_HEIGHT + top_margin, content_height + top_margin) + 10
 
-        print(f"Debug: Content lines: {len(content_lines)}, Language details: {language_details_count}")
-        print(f"Debug: Total lines: {total_content_lines}, SVG height: {svg_height}")
+        print(f"Debug: Content lines: {len(content_lines)}, SVG height: {svg_height}")
 
         # Determine border radius based on whether this will be wrapped in a window
         border_radius = "0" if macos_window else "15"
 
-        # Start building SVG with updated font and styling
+        # Start building SVG with updated font and styling - simplified
         svg_content = f'''<?xml version='1.0' encoding='UTF-8'?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="'Monaspace Krypton',monospace" width="{svg_width}px" height="{svg_height}px" font-size="14px">
 <style>
 @import url("https://cdn.jsdelivr.net/gh/iXORTech/webfonts@main/monaspace/krypton/krypton.css");
 .key {{fill: {key_color}; font-weight: bold;}}
 .value {{fill: {value_color};}}
-.addColor {{fill: {add_color};}}
-.delColor {{fill: {del_color};}}
 .separator {{fill: {separator_color};}}
-.green {{fill: {green_color};}}
-.red {{fill: {red_color};}}
-.purple {{fill: {purple_color};}}
-.gray {{fill: {gray_color};}}
-.note {{fill: {note_color}; font-size: 12px;}}
 .prompt {{fill: {prompt_color}; font-size: 14px;}}
 .cursor {{fill: {cursor_color};}}
 text, tspan {{white-space: pre;}}
@@ -1307,34 +1235,6 @@ text, tspan {{white-space: pre;}}
 
         y_current = y_start + 25
 
-        # Get stats with safe access
-        repos_owned = user.get('repositories', {}).get('totalCount', 0) if user.get('repositories') else 0
-        repos_contributed = user.get('repositoriesContributedTo', {}).get('totalCount', 0) if user.get(
-            'repositoriesContributedTo') else 0
-        stars = user.get('starredRepositories', {}).get('totalCount', 0) if user.get('starredRepositories') else 0
-        followers = user.get('followers', {}).get('totalCount', 0) if user.get('followers') else 0
-        open_issues = user.get('issues', {}).get('totalCount', 0) if user.get('issues') else 0
-        closed_issues = user.get('closedIssues', {}).get('totalCount', 0) if user.get('closedIssues') else 0
-        open_prs = user.get('pullRequests', {}).get('totalCount', 0) if user.get('pullRequests') else 0
-        draft_prs = user.get('draftPullRequests', {}).get('totalCount', 0) if user.get('draftPullRequests') else 0
-        merged_prs = user.get('mergedPullRequests', {}).get('totalCount', 0) if user.get('mergedPullRequests') else 0
-        closed_prs = user.get('closedPullRequests', {}).get('totalCount', 0) if user.get('closedPullRequests') else 0
-
-        # Calculate non-draft open PRs
-        non_draft_open_prs = open_prs - draft_prs
-
-        # Define special styling for lines with colored content - with pipe separators outside spans
-        special_styling = {
-            "Repository": lambda
-                value: f'<tspan class="value">{repos_owned} (<tspan class="key">Contributed</tspan>: {repos_contributed})</tspan> | <tspan class="value"><tspan class="key">Stars</tspan>: {stars}</tspan> | <tspan class="value"><tspan class="key">Followers</tspan>: {followers}</tspan>',
-            "Commits": lambda
-                value: f'<tspan class="value">{data["total_commits"]:,}</tspan>',
-            "Issues": lambda
-                value: f'<tspan class="value"><tspan class="key">Open</tspan>: <tspan class="green">{open_issues}</tspan></tspan> | <tspan class="value"><tspan class="key">Closed</tspan>: <tspan class="red">{closed_issues}</tspan></tspan>',
-            "Pull Requests": lambda
-                value: f'<tspan class="value"><tspan class="key">Open</tspan>: <tspan class="green">{non_draft_open_prs}</tspan></tspan> | <tspan class="value"><tspan class="key">Draft</tspan>: <tspan class="gray">{draft_prs}</tspan></tspan> | <tspan class="value"><tspan class="key">Merged</tspan>: <tspan class="purple">{merged_prs}</tspan></tspan> | <tspan class="value"><tspan class="key">Closed</tspan>: <tspan class="red">{closed_prs}</tspan></tspan>'
-        }
-
         # Render all content lines dynamically
         bio_text_start_x = None  # Track the x position where bio text starts (for alignment)
         for key, value in content_lines:
@@ -1365,62 +1265,14 @@ text, tspan {{white-space: pre;}}
 </text>'''
                 y_current += line_height
                 continue
-            # Replace placeholder values for GitHub Statistics - just pass placeholders as special styling handles the formatting
-            elif key in ["Repository", "Commits", "Issues", "Pull Requests"]:
-                value = "PLACEHOLDER"  # Will be replaced by special styling
-                styled_line = format_styled_line(key, value, special_styling)
             else:
-                styled_line = format_styled_line(key, value, special_styling)
+                styled_line = format_styled_line(key, value)
 
             svg_content += f'''
 <text x="{x_main}" y="{y_current}" fill="{text_color}" font-size="14px">
 <tspan x="{x_main}" y="{y_current}">{styled_line}</tspan>
 </text>'''
             y_current += line_height
-
-        # Language progress bar and stats (no spacing before bar)
-        if language_percentages:
-            # Add progress bar - width 560
-            svg_content += f'<g transform="translate({x_main}, {y_current})">'
-            bar_elements = generate_language_bar(language_percentages, 560)
-            for element in bar_elements:
-                svg_content += f'  {element}'
-            svg_content += '</g>'
-
-            y_current += 35  # Spacing after language bar before language details
-
-            # Language details
-            for i, (lang, stats) in enumerate(list(language_percentages.items())[:10]):  # Show top 10 languages
-                percentage_str = f"{stats['percentage']:.1f}%"
-                commits_str = f"{stats['commits']:,} commits"
-
-                svg_content += f'''
-<text x="{x_main}" y="{y_current}" fill="{text_color}" font-size="14px">
-<tspan x="{x_main}" y="{y_current}">  <tspan style="fill:{stats['color']}">●</tspan> <tspan class="key">{lang}</tspan>: <tspan class="value">{percentage_str}</tspan> <tspan class="value">{commits_str}</tspan></tspan>
-</text>'''
-                y_current += line_height
-
-        # Add notes at the bottom, aligned with ASCII art (x=25)
-        y_current += 20  # Space before notes
-
-        # Generate timestamp (current UTC time)
-        current_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-
-        # Add generation timestamp note
-        svg_content += f'''
-<text x="{ascii_x}" y="{y_current}" fill="{text_color}" class="note">
-<tspan x="{ascii_x}" y="{y_current}" class="note">Generated on {current_time}</tspan>
-</text>'''
-
-        # Check if the token's authenticated user matches the provided username
-        if self.token:  # Only check if token is provided
-            is_authenticated_user = self.check_is_authenticated_user(self.username)
-            if is_authenticated_user:
-                y_current += 15  # Space for second note
-                svg_content += f'''
-<text x="{ascii_x}" y="{y_current}" fill="{text_color}" class="note">
-<tspan x="{ascii_x}" y="{y_current}" class="note">These metrics include private contributions.</tspan>
-</text>'''
 
         # Add shell prompt with flashing cursor
         y_current += 25
