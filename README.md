@@ -25,7 +25,7 @@
 
 📈 my github stats
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
+ <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
 
 📊 **this week i spent my time on:**
 
