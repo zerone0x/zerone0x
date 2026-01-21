@@ -21,12 +21,11 @@
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
 
-<div align="center">
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zerone0x/zerone0x/main/dark.svg">
-<img alt="zerone0x's GitHub Profile README" src="https://raw.githubusercontent.com/zerone0x/zerone0x/refs/heads/main/dark.svg">
-</picture>
-</div>
+###
+
+📈 my github stats
+
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
 
 📊 **this week i spent my time on:**
 
