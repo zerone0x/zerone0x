@@ -21,12 +21,6 @@
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
 
-###
-
-📈 my github stats
-
- <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
-
 📊 **this week i spent my time on:**
 
   <!--START_SECTION:waka-->
