@@ -28,7 +28,7 @@
 ```txt
 From: 14 February 2026 - To: 21 February 2026
 
-Total Time: 25 mins
+Total Time: 50 hrs 24 mins
 
 Other         49 hrs 58 mins        ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷   99.15 %
 Markdown      25 mins               ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.84 %
