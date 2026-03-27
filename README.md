@@ -1,5 +1,5 @@
 <h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
-<p>I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, AI agent builder. Open‑source contributor. Shipping dev tools & product systems. </p>
+<p>I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, I build tools, break systems, and live in the terminal. </p>
 <!-- <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, AI agent builder. Open‑source contributor (OpenClaw/OpenCode). Shipping dev tools & product systems. </p>
 <blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote> -->
 
