@@ -5,17 +5,20 @@
 
 <!-- ## 🔗 Links -->
 
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
-[![blog](https://img.shields.io/badge/my_blog-000?style=for-the-badge&logo=blogger&logoColor=white)](https://blog.trine.dev/)
-
-
-
-<!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
-<img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
-
-<a href="https://cal.com/dot9eak" target="_blank" rel="noreferrer">
-  <img src="https://img.shields.io/static/v1?message=Schedule%20Meeting&logo=googlecalendar&label=book%20a%20slot&color=3B82F6&logoColor=white&labelColor=1F2937&style=for-the-badge" height="29" alt="schedule meeting badge" />
-</a>
+<p>
+  <a href="https://trine.dev/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" height="28" alt="portfolio badge" />
+  </a>
+  <a href="https://blog.trine.dev/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/my_blog-000?style=for-the-badge&logo=blogger&logoColor=white" height="28" alt="blog badge" />
+  </a>
+  <br />
+  <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
+  <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="28" alt="mail badge" />
+  <a href="https://cal.com/dot9eak" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/static/v1?message=Schedule%20Meeting&logo=googlecalendar&label=book%20a%20slot&color=3B82F6&logoColor=white&labelColor=1F2937&style=for-the-badge" height="28" alt="schedule meeting badge" />
+  </a>
+</p>
 
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
@@ -23,12 +26,11 @@
 <img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
 </a> -->
 
-</a>
 <!-- <a href="https://ko-fi.com/zerone0x">
   <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
 </a> -->
 
-📊 **this week i spent my time on:**
+<p><strong>📊 this week i spent my time on:</strong></p>
 
   <!--START_SECTION:waka-->
 
@@ -59,7 +61,10 @@ Go            15 mins               ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 </a>
 </div> -->
 
-🫶 support me if you like my work
+<p><strong>🫶 support me if you like my work</strong></p>
 
-<a href="https://buymeacoffee.com/soberzml23d" target="_blank">
+<p>
+<a href="https://buymeacoffee.com/soberzml23d" target="_blank" rel="noreferrer">
   <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 50px; width: 210px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); -webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5);" />
+</a>
+</p>
