@@ -8,8 +8,15 @@
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://trine.dev/)
 [![blog](https://img.shields.io/badge/my_blog-000?style=for-the-badge&logo=blogger&logoColor=white)](https://blog.trine.dev/)
 
+
+
 <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
 <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="29" alt="mail logo"  />
+
+<a href="https://cal.com/dot9eak" target="_blank" rel="noreferrer">
+  <img src="https://img.shields.io/static/v1?message=Schedule%20Meeting&logo=googlecalendar&label=book%20a%20slot&color=3B82F6&logoColor=white&labelColor=1F2937&style=for-the-badge" height="29" alt="schedule meeting badge" />
+</a>
+
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
     
