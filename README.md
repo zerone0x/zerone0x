@@ -15,7 +15,7 @@
   <br />
   <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
   <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="28" alt="mail badge" />
-  <a href="https://cal.com/dot9eak" target="_blank" rel="noreferrer">
+  <a href="https://cal.com/manlunzhang" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/static/v1?message=Schedule%20Meeting&logo=googlecalendar&label=book%20a%20slot&color=3B82F6&logoColor=white&labelColor=1F2937&style=for-the-badge" height="28" alt="schedule meeting badge" />
   </a>
 </p>
