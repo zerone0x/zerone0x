@@ -1,26 +1,35 @@
-<h1><img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/> Hey! Nice to see you.</h1>
-<p>I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, I build tools, break systems, and live in the terminal. </p>
-<!-- <p>Welcome to my page! </br> I'm <a href="https://trine.dev/" target="_blank">zerone0x</a>, AI agent builder. Open‑source contributor (OpenClaw/OpenCode). Shipping dev tools & product systems. </p>
-<blockquote>We are not given a short life but we make it short, and we are not ill-supplied but wasteful of it. You know how important your time is, yet you ignore its passage and engage in low-value activities that pull you away from the things that really matter.</blockquote> -->
+### Hi, I'm zerone0x
 
-<!-- ## 🔗 Links -->
+I'm a founding engineer working on AI-agent products, runtime orchestration, and developer tooling for autonomous software execution.
 
-<p>
-  <a href="https://trine.dev/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white" height="28" alt="portfolio badge" />
-  </a>
-  <a href="https://blog.trine.dev/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/my_blog-000?style=for-the-badge&logo=blogger&logoColor=white" height="28" alt="blog badge" />
-  </a>
-  <br />
-  <!-- [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zerone0x/) -->
-  <img src="https://img.shields.io/static/v1?message=Mail&logo=gmail&label=hi@trine.dev&color=D14836&logoColor=white&labelColor=81b29a&style=for-the-badge" height="28" alt="mail badge" />
-  <a href="https://cal.com/manlunzhang" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/static/v1?message=Schedule%20Meeting&logo=googlecalendar&label=book%20a%20slot&color=3B82F6&logoColor=white&labelColor=1F2937&style=for-the-badge" height="28" alt="schedule meeting badge" />
-  </a>
-</p>
+I build and contribute to tools around coding agents, sandboxing, memory, evaluation loops, and the infrastructure that decides whether an agent system actually ships.
 
-<p><strong>📝 recently posted:</strong></p>
+I'm always open to building, contributing, collaborating, or chatting. Feel free to [reach out](mailto:hi@trine.dev), read more on [my blog](https://blog.trine.dev/), or visit [trine.dev](https://trine.dev/).
+
+Some projects and repositories I've built, maintained, or contributed to:
+
+- [OpenClaw](https://github.com/openclaw/openclaw) - personal AI assistant and agent runtime.
+- [OpenCode](https://github.com/anomalyco/opencode) - open-source coding agent.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - agent runtime and orchestration.
+- [Serena](https://github.com/oraios/serena) - semantic coding toolkit for agents.
+- [Google Workspace CLI](https://github.com/googleworkspace/cli) - command-line automation for Google Workspace.
+- [Nanocoder](https://github.com/Nano-Collective/nanocoder) - community coding agent for the terminal.
+- [Cline](https://github.com/cline/cline) - autonomous coding agent across IDE, SDK, and CLI.
+- [Beads](https://github.com/gastownhall/beads) - memory layer for coding agents.
+- [Nanobot](https://github.com/HKUDS/nanobot) - lightweight AI agent for tools and workflows.
+- [Multica](https://github.com/multica-ai/multica) - managed agents platform.
+- [Kilo Code](https://github.com/Kilo-Org/kilocode) - agentic engineering platform.
+- [MemOS](https://github.com/MemTensor/MemOS) - memory OS for LLMs and agents.
+- [Container Use](https://github.com/dagger/container-use) - isolated dev environments for coding agents.
+- [Open SWE](https://github.com/langchain-ai/open-swe) - asynchronous coding agent.
+- [LobeHub](https://github.com/lobehub/lobehub) - agent operations platform.
+- [RTK](https://github.com/rtk-ai/rtk) - token-saving CLI proxy.
+- [Claude Mem](https://github.com/thedotmack/claude-mem) - persistent context for coding agents.
+- [Code Review Graph](https://github.com/tirth8205/code-review-graph) - local-first code intelligence graph.
+- [Vite Plus](https://github.com/voidzero-dev/vite-plus) - unified web development toolchain.
+- [Yansu Desktop](https://github.com/Isoform/yansu-desktop-releases) - desktop release channel for agent apps.
+
+### Recently Posted
 
 <!--START_SECTION:blog-->
 - [Minimum Viable tmux](https://blog.trine.dev/posts/2026-06-16-tmux/) - 2026-06-16
@@ -30,19 +39,9 @@
 - [What I'd Steal From Hermes for the Next Orbit](https://blog.trine.dev/posts/2026-04-22-hermes-orbit-next-harness/) - 2026-04-21
 <!--END_SECTION:blog-->
 
-<!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
-    
-<img src="https://komarev.com/ghpvc/?username=zerone0x&color=brightgreen&label=Views&style=for-the-badge" />
-</a> -->
+### This Week I Spent My Time On
 
-<!-- <a href="https://ko-fi.com/zerone0x">
-  <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="zerone0x" />
-</a> -->
-
-<p><strong>📊 this week i spent my time on:</strong></p>
-
-  <!--START_SECTION:waka-->
+<!--START_SECTION:waka-->
 
 ```txt
 From: 12 June 2026 - To: 19 June 2026
@@ -58,23 +57,4 @@ JSON                 4 hrs 32 mins         ⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀�
 
 <!--END_SECTION:waka-->
 
-<!-- ![](<https://pixel-profile.vercel.app/api/github-stats?username=zerone0x&screen_effect=true&background=linear-gradient(to%20bottom%20right%2C%20%232aeeff%2C%20%235580eb)>) -->
-
-<!-- <div>
-
-
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=zerone0x&show_icons=true&theme=gotham" alt="zerone0x" />
-  <img src="https://github-readme-stats.vercel.app/api?hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=gruvbox_light&locale=en&hide_border=false&username=zerone0x" height="150" alt="stats graph"  />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=gruvbox_light&hide_border=false&username=zerone0x" height="150" alt="languages graph"  />
-  <a href="https://leetcode.com/">
-  <img align="center" src="https://leetcode.card.workers.dev/?username=curblc&theme=wtf&extension=activity" />
-</a>
-</div> -->
-
-<p><strong>🫶 support me if you like my work</strong></p>
-
-<p>
-<a href="https://buymeacoffee.com/soberzml23d" target="_blank" rel="noreferrer">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 50px; width: 210px; box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5); -webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5);" />
-</a>
-</p>
+If my tools or notes helped you, feel free to [buy me a coffee](https://buymeacoffee.com/soberzml23d).
