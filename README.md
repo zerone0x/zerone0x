@@ -7,7 +7,7 @@ I'm a **founding engineer** working on **AI-agent products**, **runtime orchestr
 - ✍️ Writing notes on [my blog](https://blog.trine.dev/).
 - 💬 Open to building, contributing, collaborating, or chatting: [reach out](mailto:hi@trine.dev) or visit [trine.dev](https://trine.dev/).
 - 📅 Want to sync? [Book a chat](https://cal.com/manlunzhang).
-- ☕ If my tools or notes helped you, feel free to [buy me a coffee](https://buymeacoffee.com/soberzml23d).
+- ☕ If my tools or notes helped you, feel free to [buy me a coffee](https://buymeacoffee.com/loopai).
 
 ### 🧪 Projects & Open Source
 
