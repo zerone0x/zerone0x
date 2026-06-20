@@ -20,6 +20,16 @@
   </a>
 </p>
 
+<p><strong>📝 recently posted:</strong></p>
+
+<!--START_SECTION:blog-->
+- [Minimum Viable tmux](https://blog.trine.dev/posts/2026-06-16-tmux/) - 2026-06-16
+- [The Memory Stack](https://blog.trine.dev/posts/2026-06-16-memory-stack/) - 2026-06-16
+- [Walter White](https://blog.trine.dev/posts/2026-06-05-waltwhite-en/) - 2026-06-05
+- [My top 5 TV series](https://blog.trine.dev/posts/2026-05-17-toptv/) - 2026-05-17
+- [What I'd Steal From Hermes for the Next Orbit](https://blog.trine.dev/posts/2026-04-22-hermes-orbit-next-harness/) - 2026-04-21
+<!--END_SECTION:blog-->
+
 <!-- <a href="discordapp.com/users/326660148355661825" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=0xy#2276&color=03045e&logoColor=white&labelColor=&style=for-the-badge" height="29" alt="discord logo"  />
     
