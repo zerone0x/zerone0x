@@ -6,6 +6,15 @@
 import subprocess
 import sys
 
+def has_changes():
+    result = subprocess.run(
+        ["git", "status", "--porcelain"],
+        capture_output=True,
+        text=True,
+        check=True
+    )
+    return bool(result.stdout.strip())
+
 def get_last_commit_author():
     result = subprocess.run(
         ["git", "log", "-1", "--pretty=format:%ae"],
@@ -51,6 +60,10 @@ def create_new_commit():
         sys.exit(1)
 
 def main():
+    if not has_changes():
+        print("No changes to commit.")
+        return 0
+
     last_commit_author = get_last_commit_author()
     if last_commit_author == "github-actions[bot]@users.noreply.github.com":
         amend_last_commit()
