@@ -37,11 +37,11 @@ Some projects and repositories I've built, maintained, or contributed to:
 ### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
+- [Agent Harness：把开发变成可执行模式](https://blog.trine.dev/posts/2026-06-22-agent-harness-executable-patterns-zh/) - 2026-06-22
+- [Agent Harness Turns Development into Executable Patterns](https://blog.trine.dev/posts/2026-06-22-agent-harness-executable-patterns/) - 2026-06-22
 - [Minimum Viable tmux](https://blog.trine.dev/posts/2026-06-16-tmux/) - 2026-06-16
 - [The Memory Stack](https://blog.trine.dev/posts/2026-06-16-memory-stack/) - 2026-06-16
 - [Walter White](https://blog.trine.dev/posts/2026-06-05-waltwhite-en/) - 2026-06-05
-- [My top 5 TV series](https://blog.trine.dev/posts/2026-05-17-toptv/) - 2026-05-17
-- [What I'd Steal From Hermes for the Next Orbit](https://blog.trine.dev/posts/2026-04-22-hermes-orbit-next-harness/) - 2026-04-21
 <!--END_SECTION:blog-->
 
 ### 📊 This Week I Spent My Time On
