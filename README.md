@@ -37,8 +37,8 @@ Some projects and repositories I've built, maintained, or contributed to:
 ### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
-- [Agent Harness：把开发变成可执行模式](https://blog.trine.dev/posts/2026-06-22-agent-harness-executable-patterns-zh/) - 2026-06-22
 - [Agent Harness Turns Development into Executable Patterns](https://blog.trine.dev/posts/2026-06-22-agent-harness-executable-patterns/) - 2026-06-22
+- [Game theory as a learning lens, not an arithmetic class](https://blog.trine.dev/posts/game-theory-as-a-learning-lens/) - 2026-06-21
 - [Minimum Viable tmux](https://blog.trine.dev/posts/2026-06-16-tmux/) - 2026-06-16
 - [The Memory Stack](https://blog.trine.dev/posts/2026-06-16-memory-stack/) - 2026-06-16
 - [Walter White](https://blog.trine.dev/posts/2026-06-05-waltwhite-en/) - 2026-06-05
