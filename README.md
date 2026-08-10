@@ -37,11 +37,11 @@ Some projects and repositories I've built, maintained, or contributed to:
 ### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
+- [On Input: The Allowlist](https://blog.trine.dev/posts/2026-08-09-oninput/) - 2026-08-09
 - [Self-Evolution Is a Data Problem](https://blog.trine.dev/posts/2026-08-09-self-evolution-data/) - 2026-08-09
 - [FDE: The Job Is the Gaps](https://blog.trine.dev/posts/2026-08-09-fde/) - 2026-08-09
 - [Agent Harness Turns Development into Executable Patterns](https://blog.trine.dev/posts/2026-06-22-agent-harness-executable-patterns/) - 2026-06-22
 - [Game theory as a learning lens, not an arithmetic class](https://blog.trine.dev/posts/game-theory-as-a-learning-lens/) - 2026-06-21
-- [Minimum Viable tmux](https://blog.trine.dev/posts/2026-06-16-tmux/) - 2026-06-16
 <!--END_SECTION:blog-->
 
 ### 📊 This Week I Spent My Time On
