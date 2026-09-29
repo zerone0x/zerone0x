@@ -37,11 +37,11 @@ Some projects and repositories I've built, maintained, or contributed to:
 ### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
+- [On Routing](https://blog.trine.dev/posts/2026-09-29-routing/) - 2026-09-29
+- [On Markov: The Best Move From Here](https://blog.trine.dev/posts/2026-09-28-onmarkov/) - 2026-09-29
 - [On Harness：从 loop 到 gate](https://blog.trine.dev/posts/2026-09-09-harness-zh/) - 2026-09-09
 - [On Harness](https://blog.trine.dev/posts/2026-09-09-harness/) - 2026-09-09
 - [On Layers](https://blog.trine.dev/posts/2026-08-20-onlayers/) - 2026-08-20
-- [On Slop](https://blog.trine.dev/posts/2026-08-20-onslop/) - 2026-08-20
-- [On Input: The Allowlist](https://blog.trine.dev/posts/2026-08-09-oninput/) - 2026-08-09
 <!--END_SECTION:blog-->
 
 ### 📊 This Week I Spent My Time On
