@@ -39,9 +39,9 @@ Some projects and repositories I've built, maintained, or contributed to:
 <!--START_SECTION:blog-->
 - [On Routing](https://blog.trine.dev/posts/2026-09-29-routing/) - 2026-09-29
 - [On Markov: The Best Move From Here](https://blog.trine.dev/posts/2026-09-28-onmarkov/) - 2026-09-29
-- [On Burnout](https://blog.trine.dev/posts/2025-11-24-burnout/) - 2026-09-19
 - [On Harness：从 loop 到 gate](https://blog.trine.dev/posts/2026-09-09-harness-zh/) - 2026-09-09
 - [On Harness](https://blog.trine.dev/posts/2026-09-09-harness/) - 2026-09-09
+- [On Layers](https://blog.trine.dev/posts/2026-08-20-onlayers/) - 2026-08-20
 <!--END_SECTION:blog-->
 
 ### 📊 This Week I Spent My Time On
