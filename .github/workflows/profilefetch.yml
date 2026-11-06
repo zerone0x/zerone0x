@@ -2,7 +2,7 @@ name: Get neofetch-style profile SVGs.
 
 on:
   # Schedule updates (each hour)
-  schedule: [{ cron: "0 0 * * *" }]
+  # schedule: [{ cron: "0 0 * * *" }]
   # Manual trigger
   workflow_dispatch:
   # Push to main branches
