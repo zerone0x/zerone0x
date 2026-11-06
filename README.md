@@ -15,22 +15,28 @@ Some projects and repositories I've built, maintained, or contributed to:
 
 - 🧠 [OpenClaw](https://github.com/openclaw/openclaw) - personal AI assistant and agent runtime.
 - ⚡ [OpenCode](https://github.com/anomalyco/opencode) - open-source coding agent.
-- 🧭 [Hermes Agent](https://github.com/NousResearch/hermes-agent) - agent runtime and orchestration.
+- 🤖 [Codex](https://github.com/openai/codex) - OpenAI's coding agent for the terminal.
 - 🔎 [Serena](https://github.com/oraios/serena) - semantic coding toolkit for agents.
-- 📬 [Google Workspace CLI](https://github.com/googleworkspace/cli) - command-line automation for Google Workspace.
-- 💻 [Nanocoder](https://github.com/Nano-Collective/nanocoder) - community coding agent for the terminal.
-- 🧩 [Cline](https://github.com/cline/cline) - autonomous coding agent across IDE, SDK, and CLI.
 - 🧵 [Beads](https://github.com/gastownhall/beads) - memory layer for coding agents.
-- 🤖 [Nanobot](https://github.com/HKUDS/nanobot) - lightweight AI agent for tools and workflows.
+- 💻 [Nanocoder](https://github.com/Nano-Collective/nanocoder) - community coding agent for the terminal.
+- 📦 [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - sandbox runtime for AI agents.
+- 🔖 [Karakeep](https://github.com/karakeep-app/karakeep) - self-hostable bookmark-everything app with AI tagging.
+- 🪟 [OpenChamber](https://github.com/openchamber/openchamber) - agentic development environment built on OpenCode.
+- 📈 [AgentsView](https://github.com/kenn-io/agentsview) - local-first session search and analytics for coding agents.
+- 📏 [Rulesync](https://github.com/dyoshikawa/rulesync) - rules and config CLI for AI coding agents.
+- 📬 [Google Workspace CLI](https://github.com/googleworkspace/cli) - command-line automation for Google Workspace.
+- 🐋 [Orca](https://github.com/stablyai/orca) - run a fleet of coding agents on desktop, mobile, or a remote runtime.
+- 🏰 [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) - manage multiple coding agents from a TUI or the web.
+- 📱 [Agent Device](https://github.com/callstack/agent-device) - device layer that lets coding agents drive mobile, web, TV, and desktop apps.
+- 🔌 [mcp-go](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
+- 🪄 [RTK](https://github.com/rtk-ai/rtk) - token-saving CLI proxy.
+- 🗺️ [Code Review Graph](https://github.com/tirth8205/code-review-graph) - local-first code intelligence graph.
 - 🚀 [Multica](https://github.com/multica-ai/multica) - managed agents platform.
+- 📡 [LobeHub](https://github.com/lobehub/lobehub) - agent operations platform.
+- 🐈 [Nanobot](https://github.com/HKUDS/nanobot) - lightweight AI agent for tools and workflows.
 - ⚙️ [Kilo Code](https://github.com/Kilo-Org/kilocode) - agentic engineering platform.
 - 💾 [MemOS](https://github.com/MemTensor/MemOS) - memory OS for LLMs and agents.
-- 📦 [Container Use](https://github.com/dagger/container-use) - isolated dev environments for coding agents.
-- ⏱️ [Open SWE](https://github.com/langchain-ai/open-swe) - asynchronous coding agent.
-- 📡 [LobeHub](https://github.com/lobehub/lobehub) - agent operations platform.
-- 🪄 [RTK](https://github.com/rtk-ai/rtk) - token-saving CLI proxy.
 - 🗂️ [Claude Mem](https://github.com/thedotmack/claude-mem) - persistent context for coding agents.
-- 🗺️ [Code Review Graph](https://github.com/tirth8205/code-review-graph) - local-first code intelligence graph.
 - 🔧 [Vite Plus](https://github.com/voidzero-dev/vite-plus) - unified web development toolchain.
 - 🖥️ [Yansu Desktop](https://github.com/Isoform/yansu-desktop-releases) - desktop release channel for agent apps.
 
