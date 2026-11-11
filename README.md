@@ -43,11 +43,11 @@ Some projects and repositories I've built, maintained, or contributed to:
 ### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
-- [Before 28](https://blog.trine.dev/posts/2026-10-30-before28/) - 2026-10-30
+- [On Self-Improvement：怎么知道它真的变好了](https://blog.trine.dev/posts/2026-10-23-self-improvement-zh/) - 2026-10-23
+- [On Self-Improvement](https://blog.trine.dev/posts/2026-10-23-self-improvement/) - 2026-10-23
 - [On Routing](https://blog.trine.dev/posts/2026-09-29-routing/) - 2026-09-29
 - [On Markov: The Best Move From Here](https://blog.trine.dev/posts/2026-09-28-onmarkov/) - 2026-09-29
 - [On Harness：从 loop 到 gate](https://blog.trine.dev/posts/2026-09-09-harness-zh/) - 2026-09-09
-- [On Harness](https://blog.trine.dev/posts/2026-09-09-harness/) - 2026-09-09
 <!--END_SECTION:blog-->
 
 ### 📊 This Week I Spent My Time On
