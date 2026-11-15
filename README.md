@@ -45,8 +45,6 @@ I build AI agents and the harnesses that let them ship without a human pressing 
 </tbody>
 </table>
 
-<h3><samp>~/upstream</samp></h3>
+<samp><b>~/foss</b></samp>
 
-When the open-source agents I use fall short, I fix them upstream:
-
-[OpenCode](https://github.com/anomalyco/opencode) · [OpenClaw](https://github.com/openclaw/openclaw) · [Serena](https://github.com/oraios/serena) · [Beads](https://github.com/gastownhall/beads) · [Nanocoder](https://github.com/Nano-Collective/nanocoder) · [Karakeep](https://github.com/karakeep-app/karakeep) · [Google Workspace CLI](https://github.com/googleworkspace/cli) · [Agent Device](https://github.com/callstack/agent-device) · [mcp-go](https://github.com/mark3labs/mcp-go) · [many others](https://github.com/pulls?q=is%3Apr+author%3Azerone0x+is%3Amerged+-user%3Azerone0x)
+When the open-source agents I use fall short, I fix them upstream: [OpenCode](https://github.com/anomalyco/opencode) · [OpenClaw](https://github.com/openclaw/openclaw) · [Serena](https://github.com/oraios/serena) · [Beads](https://github.com/gastownhall/beads) · [Nanocoder](https://github.com/Nano-Collective/nanocoder) · [Karakeep](https://github.com/karakeep-app/karakeep) · [Google Workspace CLI](https://github.com/googleworkspace/cli) · [Agent Device](https://github.com/callstack/agent-device) · [mcp-go](https://github.com/mark3labs/mcp-go) · [many others](https://github.com/pulls?q=is%3Apr+author%3Azerone0x+is%3Amerged+-user%3Azerone0x)
