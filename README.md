@@ -5,7 +5,7 @@
 
 <samp>[0:<a href="https://trine.dev">about</a>] [1:<a href="#building">build</a>] [2:<a href="https://blog.trine.dev">write</a>] [3:<a href="mailto:hi@trine.dev">contact</a>]</samp>
 
-I build AI agents and the systems they run on, the way Factorio taught me: design the factory, don't do the work. Right now that factory is loops, checks and gates, so a coding agent can finish the job without anyone pressing `y`.
+I build AI agents and the harnesses that let them ship without a human pressing `y`.
 
 <table>
 <tr>
