@@ -1,3 +1,5 @@
+<h3 align="right"><samp><a href="https://trine.dev">[0:about]</a>&nbsp;&nbsp;<a href="#building">[1:build]</a>&nbsp;&nbsp;<a href="https://blog.trine.dev">[2:write]</a>&nbsp;&nbsp;<a href="mailto:hi@trine.dev">[3:contact]</a></samp></h3>
+
 <a href="https://trine.dev">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="banner_dark.svg">
@@ -5,7 +7,6 @@
 </picture>
 </a>
 
-<samp>[0:<a href="https://trine.dev">about</a>] [1:<a href="#building">build</a>] [2:<a href="https://blog.trine.dev">write</a>] [3:<a href="mailto:hi@trine.dev">contact</a>]</samp>
 
 I build AI agents and the harnesses that let them ship without a human pressing `y`.
 
