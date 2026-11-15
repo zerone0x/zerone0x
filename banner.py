@@ -1,12 +1,28 @@
 #!/usr/bin/env python3
 """Draws banner_light.svg / banner_dark.svg: a whoami prompt over pixel hills."""
 
+import base64
 import math
 from pathlib import Path
 
 ROOT = Path(__file__).parent
 W, H, PX = 880, 300, 8
-MONO = "ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
+MONO = "Iosevka,ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono',monospace"
+PIXEL = "'Geist Pixel Square'," + MONO
+# Same faces as trine.dev, embedded so the banner never falls back to the viewer's fonts.
+FONTS = [
+    ("Iosevka", 400, "Iosevka-400-subset.woff2"),
+    ("Iosevka", 500, "Iosevka-500-subset.woff2"),
+    ("Geist Pixel Square", 500, "GeistPixel-Square.woff2"),
+]
+
+
+def font_faces():
+    faces = []
+    for family, weight, name in FONTS:
+        data = base64.b64encode((ROOT / "fonts" / name).read_bytes()).decode()
+        faces.append(f"@font-face{{font-family:'{family}';font-weight:{weight};src:url(data:font/woff2;base64,{data}) format('woff2')}}")
+    return "".join(faces)
 
 THEMES = {
     "light": {
@@ -52,7 +68,7 @@ def render(theme):
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
         f'font-family="{MONO}" shape-rendering="crispEdges">',
-        "<style>@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}"
+        "<style>" + font_faces() + "@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}"
         ".cursor{animation:blink 1.1s steps(1) infinite}"
         "@media (prefers-reduced-motion:reduce){.cursor{animation:none}}</style>",
         f'<rect width="{W}" height="{H}" rx="10" fill="{c["sky"]}"/>',
@@ -70,11 +86,11 @@ def render(theme):
     out.append("</g>")
 
     out += [
-        f'<text x="40" y="58" font-size="14" fill="{c["accent"]}">$ <tspan fill="{c["dim"]}">whoami</tspan></text>',
-        f'<text x="40" y="104" font-size="38" font-weight="700" fill="{c["fg"]}" letter-spacing="1">zerone0x</text>',
-        f'<text x="40" y="146" font-size="17" fill="{c["fg"]}">Build tools. Break systems.</text>',
+        f'<text x="40" y="58" font-size="16" fill="{c["accent"]}">$ <tspan fill="{c["dim"]}">whoami</tspan></text>',
+        f'<text x="40" y="108" font-size="46" font-weight="500" font-family="{PIXEL}" fill="{c["fg"]}">zerone0x</text>',
+        f'<text x="40" y="150" font-size="19" fill="{c["fg"]}">Build tools. Break systems.</text>',
         # The cursor rides in the same text run, so it sits right whatever mono font the viewer has.
-        f'<text x="40" y="172" font-size="17" fill="{c["fg"]}">Live in the terminal.<tspan class="cursor" fill="{c["accent"]}">█</tspan></text>',
+        f'<text x="40" y="178" font-size="19" fill="{c["fg"]}">Live in the terminal.<tspan class="cursor" fill="{c["accent"]}">█</tspan></text>',
         "</svg>",
     ]
     return "\n".join(out)
