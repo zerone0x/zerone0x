@@ -10,10 +10,15 @@
 I build AI agents and the harnesses that let them ship without a human pressing `y`.
 
 <table>
+<thead>
 <tr>
-<td valign="top" width="56%">
-
-<h3 id="building"><samp>~/building</samp></h3>
+<th align="left" width="56%"><a id="building"></a><samp>~/building</samp></th>
+<th align="left" width="44%"><samp>~/writing</samp></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td valign="top">
 
 [**Hearth**](https://github.com/zerone0x/hearth) · a self-hosted agent host. Every session gets its own cloud desktop, keeps running after the laptop closes, and picks up on a phone. <sub>`early`</sub>
 
@@ -24,9 +29,7 @@ I build AI agents and the harnesses that let them ship without a human pressing 
 [**FitTube**](https://github.com/zerone0x/fittube) · fitness videos that lifting communities actually recommend, not an algorithm. <sub>[`browse`](https://zerone0x.github.io/fittube/)</sub>
 
 </td>
-<td valign="top" width="44%">
-
-<h3><samp>~/writing</samp></h3>
+<td valign="top">
 
 <!--START_SECTION:blog-->
 - [On Units: The PR and Its Author](https://blog.trine.dev/posts/2026-11-12-units/) - 2026-11-13
@@ -38,6 +41,7 @@ I build AI agents and the harnesses that let them ship without a human pressing 
 
 </td>
 </tr>
+</tbody>
 </table>
 
 <h3><samp>~/upstream</samp></h3>
