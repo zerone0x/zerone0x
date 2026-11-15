@@ -4,8 +4,8 @@
   <img alt="$ whoami: zerone0x. Build tools. Break systems. Live in the terminal." src="banner_light.svg" width="100%">
 </picture>
 </a>
-<a href="https://trine.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="tabs/about_dark.svg"><img alt="0: about" src="tabs/about_light.svg" width="12.7273%"></picture></a><a href="#building"><picture><source media="(prefers-color-scheme: dark)" srcset="tabs/build_dark.svg"><img alt="1: build" src="tabs/build_light.svg" width="12.7273%"></picture></a><a href="https://blog.trine.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="tabs/write_dark.svg"><img alt="2: write" src="tabs/write_light.svg" width="12.7273%"></picture></a><a href="mailto:hi@trine.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="tabs/contact_dark.svg"><img alt="3: contact" src="tabs/contact_light.svg" width="15%"></picture></a><a href="https://trine.dev"><picture><source media="(prefers-color-scheme: dark)" srcset="tabs/site_dark.svg"><img alt="trine.dev" src="tabs/site_light.svg" width="46.8182%"></picture></a>
 
+<samp>[0:<a href="https://trine.dev">about</a>] [1:<a href="#building">build</a>] [2:<a href="https://blog.trine.dev">write</a>] [3:<a href="mailto:hi@trine.dev">contact</a>]</samp>
 
 I build AI agents and the harnesses that let them ship without a human pressing `y`.
 

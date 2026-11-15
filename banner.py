@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Draws the profile banner (a whoami prompt over pixel hills) and the tab bar under it."""
+"""Draws banner_light.svg / banner_dark.svg: a whoami prompt over pixel hills."""
 
 import base64
 import math
@@ -17,9 +17,9 @@ FONTS = [
 ]
 
 
-def font_faces(fonts=FONTS):
+def font_faces():
     faces = []
-    for family, weight, name in fonts:
+    for family, weight, name in FONTS:
         data = base64.b64encode((ROOT / "fonts" / name).read_bytes()).decode()
         faces.append(f"@font-face{{font-family:'{family}';font-weight:{weight};src:url(data:font/woff2;base64,{data}) format('woff2')}}")
     return "".join(faces)
@@ -27,12 +27,10 @@ def font_faces(fonts=FONTS):
 THEMES = {
     "light": {
         "sky": "#e6e9e3", "fg": "#26302b", "dim": "#6b766f", "accent": "#b5652e",
-        "bar": "#3a4a40", "bar_fg": "#e6e9e3", "bar_dim": "#a9b4aa",
         "hills": ["#cdd3cb", "#a9b4aa", "#7f8f83", "#56685c", "#3a4a40"],
     },
     "dark": {
         "sky": "#151a17", "fg": "#e3e8e2", "dim": "#8a968d", "accent": "#e08a4f",
-        "bar": "#232b26", "bar_fg": "#e3e8e2", "bar_dim": "#8a968d",
         "hills": ["#1d2420", "#26302a", "#313d35", "#3d4b41", "#4a5a4f"],
     },
 }
@@ -98,52 +96,9 @@ def render(theme):
     return "\n".join(out)
 
 
-# The tab bar is one image per tab, because GitHub gives each image only one link.
-# Widths add up to the banner's, so the README can size each at width/W percent.
-BAR_H = 34
-TABS = [
-    ("about", "[0:about]", 112),
-    ("build", "[1:build]", 112),
-    ("write", "[2:write]", 112),
-    ("contact", "[3:contact]", 132),
-    ("site", "trine.dev ↗", 412),
-]
-
-
-def render_tab(theme, index):
-    c = THEMES[theme]
-    name, label, width = TABS[index]
-    first, last = index == 0, index == len(TABS) - 1
-    r = 10
-    # Only the outer tabs round their outer corners.
-    if first:
-        path = f"M{r} 0H{width}V{BAR_H}H{r}Q0 {BAR_H} 0 {BAR_H - r}V{r}Q0 0 {r} 0Z"
-    elif last:
-        path = f"M0 0H{width - r}Q{width} 0 {width} {r}V{BAR_H - r}Q{width} {BAR_H} {width - r} {BAR_H}H0Z"
-    else:
-        path = f"M0 0H{width}V{BAR_H}H0Z"
-    fill = c["accent"] if first else c["bar"]
-    out = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{BAR_H}" viewBox="0 0 {width} {BAR_H}" font-family="{MONO}">',
-        "<style>" + font_faces(fonts=FONTS[:1]) + "</style>",
-        f'<path d="{path}" fill="{fill}"/>',
-    ]
-    if last:
-        out.append(f'<text x="{width - 16}" y="22" font-size="14" text-anchor="end" fill="{c["bar_dim"]}">{label}</text>')
-    else:
-        color = c["sky"] if first else c["bar_fg"]
-        out.append(f'<text x="{width / 2}" y="22" font-size="14" text-anchor="middle" fill="{color}">{label}</text>')
-        if not first and index < len(TABS) - 2:
-            out.append(f'<rect x="{width - 1}" y="9" width="1" height="16" fill="{c["bar_dim"]}" opacity=".35"/>')
-    out.append("</svg>")
-    return "\n".join(out)
-
-
 def main():
     for theme in THEMES:
         (ROOT / f"banner_{theme}.svg").write_text(render(theme))
-        for i, (name, _, _) in enumerate(TABS):
-            (ROOT / "tabs" / f"{name}_{theme}.svg").write_text(render_tab(theme, i))
 
 
 if __name__ == "__main__":
