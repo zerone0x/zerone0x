@@ -33,11 +33,11 @@ I build AI agents and the harnesses that let them ship without a human pressing 
 <td valign="top">
 
 <!--START_SECTION:blog-->
+- [On Gates: Who Checks the Check](https://blog.trine.dev/posts/2026-11-17-gates/) - 2026-11-18
 - [On Units: The PR and Its Author](https://blog.trine.dev/posts/2026-11-12-units/) - 2026-11-13
-- [On Self-Improvement：怎么知道它真的变好了](https://blog.trine.dev/posts/2026-10-23-self-improvement-zh/) - 2026-10-23
 - [On Self-Improvement](https://blog.trine.dev/posts/2026-10-23-self-improvement/) - 2026-10-23
+- [On Self-Improvement：怎么知道它真的变好了](https://blog.trine.dev/posts/2026-10-23-self-improvement-zh/) - 2026-10-23
 - [On Routing](https://blog.trine.dev/posts/2026-09-29-routing/) - 2026-09-29
-- [On Markov: The Best Move From Here](https://blog.trine.dev/posts/2026-09-28-onmarkov/) - 2026-09-29
 <!--END_SECTION:blog-->
 
 </td>
