@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="'Monaspace Krypton',monospace" width="1024px" height="303px" font-size="14px">
+<style>
+@import url("https://cdn.jsdelivr.net/gh/iXORTech/webfonts@main/monaspace/krypton/krypton.css");
+.key {fill: #953800; font-weight: bold;}
+.value {fill: #0a3069;}
+.separator {fill: #24292f;}
+.prompt {fill: #1a7f37; font-size: 14px;}
+.cursor {fill: #24292f;}
+text, tspan {white-space: pre;}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0; }
+}
+
+.blinking {
+    animation: blink 1s infinite;
+}
+</style>
+<rect width="1024px" height="303px" fill="#f6f8fa" rx="15"/>
+<text x="25" y="30" fill="#24292f" class="ascii">
+    <tspan x="25" y="50">           ____</tspan>
+    <tspan x="25" y="66">          /\   \</tspan>
+    <tspan x="25" y="82">         /  \   \</tspan>
+    <tspan x="25" y="98">        /    \   \</tspan>
+    <tspan x="25" y="114">       /      \   \</tspan>
+    <tspan x="25" y="130">      /   /\   \   \</tspan>
+    <tspan x="25" y="146">     /   /  \   \   \</tspan>
+    <tspan x="25" y="162">    /   /    \   \   \</tspan>
+    <tspan x="25" y="178">   /   /    / \   \   \</tspan>
+    <tspan x="25" y="194">  /   /    /   \   \   \</tspan>
+    <tspan x="25" y="210"> /   /    /---------'   \</tspan>
+    <tspan x="25" y="226">/   /    /_______________\</tspan>
+    <tspan x="25" y="242">\  /                     /</tspan>
+    <tspan x="25" y="258"> \/_____________________/</tspan>
+</text>
+<text x="360" y="35" fill="#24292f" font-size="14px">
+<tspan x="360" y="35">zerone0x -—- @zerone0x -————————————————————————————————————————————————-—-</tspan>
+</text>
+<text x="360" y="60" fill="#24292f" font-size="14px">
+<tspan x="360" y="60">. <tspan class="key">Bio</tspan>:................... <tspan class="value">Build tools. Break systems. Live in the terminal.</tspan></tspan>
+</text>
+<text x="360" y="96" fill="#24292f" font-size="14px">
+<tspan x="360" y="96"><tspan class="separator">— Stack ———————————————————————————————————————————————————————————————————</tspan></tspan>
+</text>
+<text x="360" y="114" fill="#24292f" font-size="14px">
+<tspan x="360" y="114">. <tspan class="key">Tech</tspan>:................................... <tspan class="value">TypeScript · Python · Go · Shell</tspan></tspan>
+</text>
+<text x="360" y="150" fill="#24292f" font-size="14px">
+<tspan x="360" y="150"><tspan class="separator">— Contact —————————————————————————————————————————————————————————————————</tspan></tspan>
+</text>
+<text x="360" y="168" fill="#24292f" font-size="14px">
+<tspan x="360" y="168">. <tspan class="key">Email</tspan>:...................................................... <tspan class="value">hi@trine.dev</tspan></tspan>
+</text>
+<text x="25" y="211" fill="#24292f" class="prompt">
+<tspan x="25" y="211" class="prompt">zerone0x@github.com:~$ </tspan><tspan class="cursor blinking">█</tspan>
+</text>
+</svg>

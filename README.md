@@ -1,50 +1,69 @@
-<h3 align="right"><samp><a href="https://trine.dev">[0:about]</a>&nbsp;&nbsp;<a href="#building">[1:build]</a>&nbsp;&nbsp;<a href="https://blog.trine.dev">[2:write]</a>&nbsp;&nbsp;<a href="mailto:hi@trine.dev">[3:contact]</a></samp></h3>
+### Hi 👋, I'm zerone0x
 
-<a href="https://trine.dev">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner_dark.svg">
-  <img alt="$ whoami: zerone0x. Build tools. Break systems. Live in the terminal." src="banner_light.svg" width="100%">
-</picture>
-</a>
+I'm a **founding engineer** working on **AI-agent products**, **runtime orchestration**, and **developer tooling** for autonomous software execution.
 
+- 🛠️ I build around **coding agents**, **sandboxing**, **memory**, and **evaluation loops**.
+- 🌱 Currently exploring **agent runtimes**, **MCP tools**, and the infrastructure that decides whether an agent system actually ships.
+- ✍️ Writing notes on [my blog](https://blog.trine.dev/).
+- 💬 Open to building, contributing, collaborating, or chatting: [reach out](mailto:hi@trine.dev) or visit [trine.dev](https://trine.dev/).
+- 📅 Want to sync? [Book a chat](https://cal.com/manlunzhang).
+- ☕ If my tools or notes helped you, feel free to [buy me a coffee](https://buymeacoffee.com/loopai).
 
-I build AI agents and the harnesses that let them ship without a human pressing `y`.
+### 🧪 Projects & Open Source
 
-<table>
-<thead>
-<tr>
-<th align="left" width="56%"><a id="building"></a><samp>~/building</samp></th>
-<th align="left" width="44%"><samp>~/writing</samp></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td valign="top">
+Some projects and repositories I've built, maintained, or contributed to:
 
-[**Hearth**](https://github.com/zerone0x/hearth) · a self-hosted agent host. Every session gets its own cloud desktop, keeps running after the laptop closes, and picks up on a phone. <sub>`early`</sub>
+- 🧠 [OpenClaw](https://github.com/openclaw/openclaw) - personal AI assistant and agent runtime.
+- ⚡ [OpenCode](https://github.com/anomalyco/opencode) - open-source coding agent.
+- 🤖 [Codex](https://github.com/openai/codex) - OpenAI's coding agent for the terminal.
+- 🔎 [Serena](https://github.com/oraios/serena) - semantic coding toolkit for agents.
+- 🧵 [Beads](https://github.com/gastownhall/beads) - memory layer for coding agents.
+- 💻 [Nanocoder](https://github.com/Nano-Collective/nanocoder) - community coding agent for the terminal.
+- 📦 [OpenSandbox](https://github.com/opensandbox-group/OpenSandbox) - sandbox runtime for AI agents.
+- 🔖 [Karakeep](https://github.com/karakeep-app/karakeep) - self-hostable bookmark-everything app with AI tagging.
+- 🪟 [OpenChamber](https://github.com/openchamber/openchamber) - agentic development environment built on OpenCode.
+- 📈 [AgentsView](https://github.com/kenn-io/agentsview) - local-first session search and analytics for coding agents.
+- 📏 [Rulesync](https://github.com/dyoshikawa/rulesync) - rules and config CLI for AI coding agents.
+- 📬 [Google Workspace CLI](https://github.com/googleworkspace/cli) - command-line automation for Google Workspace.
+- 🐋 [Orca](https://github.com/stablyai/orca) - run a fleet of coding agents on desktop, mobile, or a remote runtime.
+- 🏰 [Agent of Empires](https://github.com/agent-of-empires/agent-of-empires) - manage multiple coding agents from a TUI or the web.
+- 📱 [Agent Device](https://github.com/callstack/agent-device) - device layer that lets coding agents drive mobile, web, TV, and desktop apps.
+- 🔌 [mcp-go](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
+- 🪄 [RTK](https://github.com/rtk-ai/rtk) - token-saving CLI proxy.
+- 🗺️ [Code Review Graph](https://github.com/tirth8205/code-review-graph) - local-first code intelligence graph.
+- 🚀 [Multica](https://github.com/multica-ai/multica) - managed agents platform.
+- 📡 [LobeHub](https://github.com/lobehub/lobehub) - agent operations platform.
+- 🐈 [Nanobot](https://github.com/HKUDS/nanobot) - lightweight AI agent for tools and workflows.
+- ⚙️ [Kilo Code](https://github.com/Kilo-Org/kilocode) - agentic engineering platform.
+- 💾 [MemOS](https://github.com/MemTensor/MemOS) - memory OS for LLMs and agents.
+- 🗂️ [Claude Mem](https://github.com/thedotmack/claude-mem) - persistent context for coding agents.
+- 🔧 [Vite Plus](https://github.com/voidzero-dev/vite-plus) - unified web development toolchain.
+- 🖥️ [Yansu Desktop](https://github.com/Isoform/yansu-desktop-releases) - desktop release channel for agent apps.
 
-[**LiveCaptions**](https://github.com/zerone0x/mac-live-captions) · live English captions for any audio on a Mac, near the notch, recognised on device. <sub>`v0.1.1`</sub>
-
-[**Beltworks**](https://github.com/zerone0x/beltworks) · a factory game in the browser, deterministic sim in a worker. <sub>[`play`](https://zerone0x.github.io/beltworks-play/)</sub>
-
-[**FitTube**](https://github.com/zerone0x/fittube) · fitness videos that lifting communities actually recommend, not an algorithm. <sub>[`browse`](https://zerone0x.github.io/fittube/)</sub>
-
-</td>
-<td valign="top">
+### 📝 Recently Posted
 
 <!--START_SECTION:blog-->
-- [On Gates: Who Checks the Check](https://blog.trine.dev/posts/2026-11-17-gates/) - 2026-11-18
 - [On Units: The PR and Its Author](https://blog.trine.dev/posts/2026-11-12-units/) - 2026-11-13
-- [On Self-Improvement](https://blog.trine.dev/posts/2026-10-23-self-improvement/) - 2026-10-23
 - [On Self-Improvement：怎么知道它真的变好了](https://blog.trine.dev/posts/2026-10-23-self-improvement-zh/) - 2026-10-23
+- [On Self-Improvement](https://blog.trine.dev/posts/2026-10-23-self-improvement/) - 2026-10-23
 - [On Routing](https://blog.trine.dev/posts/2026-09-29-routing/) - 2026-09-29
+- [On Markov: The Best Move From Here](https://blog.trine.dev/posts/2026-09-28-onmarkov/) - 2026-09-29
 <!--END_SECTION:blog-->
 
-</td>
-</tr>
-</tbody>
-</table>
+### 📊 This Week I Spent My Time On
 
-<samp><b>~/foss</b></samp>
+<!--START_SECTION:waka-->
 
-When the open-source agents I use fall short, I fix them upstream: [OpenCode](https://github.com/anomalyco/opencode) · [OpenClaw](https://github.com/openclaw/openclaw) · [Serena](https://github.com/oraios/serena) · [Beads](https://github.com/gastownhall/beads) · [Nanocoder](https://github.com/Nano-Collective/nanocoder) · [Karakeep](https://github.com/karakeep-app/karakeep) · [Google Workspace CLI](https://github.com/googleworkspace/cli) · [Agent Device](https://github.com/callstack/agent-device) · [mcp-go](https://github.com/mark3labs/mcp-go) · [many others](https://github.com/pulls?q=is%3Apr+author%3Azerone0x+is%3Amerged+-user%3Azerone0x)
+```txt
+From: 07 November 2026 - To: 14 November 2026
+
+Total Time: 67 hrs 21 mins
+
+Other      61 hrs 21 mins        ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣀⣀   91.10 %
+Markdown   4 hrs 13 mins         ⣿⣦⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   06.28 %
+Org        1 hr                  ⣤⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   01.50 %
+Python     32 mins               ⣄⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.81 %
+Text       10 mins               ⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀⣀   00.25 %
+```
+
+<!--END_SECTION:waka-->
